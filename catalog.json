@@ -3,6 +3,128 @@
   "version": 1,
   "packs": [
     {
+      "id": "ja-ko-jlpt",
+      "title": "JLPT N1~N5 · 일본어 → 한국어",
+      "description": "JLPT 단계별 일본어 단어와 한국어 뜻.",
+      "language": "일본어",
+      "targetLanguage": "한국어",
+      "version": "2",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-ko-jlpt.json",
+      "sha256": "85bcdca90f3ccc6682aab7507cd4f400cdd824465ded96e18b1bb88c0b7116bb",
+      "bytes": 4708066,
+      "cards": 12086,
+      "decks": {
+        "JLPT N1": 1280,
+        "JLPT N2": 5443,
+        "JLPT N3": 2349,
+        "JLPT N4": 1572,
+        "JLPT N5": 1442
+      }
+    },
+    {
+      "id": "ja-en-jlpt",
+      "title": "JLPT N1~N5 · 일본어 → 영어",
+      "description": "JLPT 단계별 일본어 단어와 영어 뜻.",
+      "language": "일본어",
+      "targetLanguage": "영어",
+      "version": "2",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-en-jlpt.json",
+      "sha256": "5d1e3cb9e92811cac042dfb824b6141b686a1295c75e1136ada3a8a3094ff4bd",
+      "bytes": 4323664,
+      "cards": 12086,
+      "decks": {
+        "JLPT N1": 1280,
+        "JLPT N2": 5443,
+        "JLPT N3": 2349,
+        "JLPT N4": 1572,
+        "JLPT N5": 1442
+      }
+    },
+    {
+      "id": "en-ko-cefr",
+      "title": "CEFR A1~C2 · 영어 → 한국어",
+      "description": "CEFR 단계별 대표 뜻 중심 자료. 예문 미포함이며 일부 번역은 추가 검수가 필요합니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-cefr.json",
+      "sha256": "2044e8ef69003eb0145fab58bae4dbb7f25d062a612136cb16e4b7d1757093f7",
+      "bytes": 1546508,
+      "cards": 7946,
+      "decks": {
+        "CEFR A1": 1064,
+        "CEFR A2": 1241,
+        "CEFR B1": 2086,
+        "CEFR B2": 2225,
+        "CEFR C1": 722,
+        "CEFR C2": 608
+      }
+    },
+    {
+      "id": "en-ja-cefr",
+      "title": "CEFR A1~C2 · 영어 → 일본어",
+      "description": "CEFR 단계별 대표 뜻 중심 자료. 예문 미포함이며 일부 번역은 추가 검수가 필요합니다.",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ja-cefr.json",
+      "sha256": "e6f9bbdc01d5ddd77aca9bd0e80ca45f30c116d2782ab3dd8d5ca87a7aa2d98f",
+      "bytes": 1598255,
+      "cards": 8141,
+      "decks": {
+        "CEFR A1": 1064,
+        "CEFR A2": 1235,
+        "CEFR B1": 2102,
+        "CEFR B2": 2286,
+        "CEFR C1": 767,
+        "CEFR C2": 687
+      }
+    },
+    {
+      "id": "en-ko-eiken",
+      "title": "EIKEN · 영어 → 한국어",
+      "description": "영검 단계별 영어 단어와 한국어 뜻.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "3",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-eiken.json",
+      "sha256": "8f365f8ce4edfee992877c2e3438a36eced22ef772a4988ee76f7cb5e89b75db",
+      "bytes": 2195288,
+      "cards": 10729,
+      "decks": {
+        "EIKEN5": 681,
+        "EIKEN4": 785,
+        "EIKEN3": 849,
+        "EIKEN준2": 1299,
+        "EIKEN준2플러스": 849,
+        "EIKEN2": 1400,
+        "EIKEN준1": 2999,
+        "EIKEN1": 1867
+      }
+    },
+    {
+      "id": "en-ja-eiken",
+      "title": "EIKEN · 영어 → 일본어",
+      "description": "영검 단계별 영어 단어와 일본어 뜻.",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "3",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ja-eiken.json",
+      "sha256": "778c229c8b0986e91c4198977df121151babbfe5d46d1308146c79e6e0ecc6d3",
+      "bytes": 1010493,
+      "cards": 4987,
+      "decks": {
+        "EIKEN5": 645,
+        "EIKEN4": 682,
+        "EIKEN3": 642,
+        "EIKEN준2": 876,
+        "EIKEN준2플러스": 365,
+        "EIKEN2": 698,
+        "EIKEN준1": 833,
+        "EIKEN1": 246
+      }
+    },
+    {
       "id": "ko-en-topik",
       "title": "TOPIK 어휘 · 한국어 → 영어",
       "description": "원본 중 대역이 확보된 어휘를 부분 수록했습니다. 수준은 추정값이며 공식 TOPIK 등급을 보증하지 않습니다. 발음 표기는 근사치입니다.",
