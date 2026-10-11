@@ -24,3 +24,15 @@
 - 학습 자료만 공개하며 개인 기록·백업·인증 정보는 포함하지 않습니다.
 
 Catalog: [catalog.json](https://raw.githubusercontent.com/skizo-io/dama-materials/main/catalog.json). Format: `dama-card-pack` version 1.
+
+## 자료 교체와 직접 업로드
+
+2026-10-11: CEFR 두 파일은 그대로 유지하고 JLPT·EIKEN·한국어 자료 여섯 파일을 정리본(version=2)으로 교체했습니다. 카드 ID·카드 수·꾸러미 수는 유지했습니다.
+
+업로드 위치: [materials-v1 편집](https://github.com/skizo-io/dama-materials/releases/edit/materials-v1). 저장소 쓰기 권한이 있는 계정으로 로그인하면 Assets에 JSON을 올릴 수 있습니다. `(1)`, `(2)` 같은 접미사를 제거하고 위 다운로드 이름을 사용하세요.
+
+파일 교체 시 `catalog.json`의 해당 항목 version·sha256·bytes·cards·decks도 함께 갱신해야 앱의 무결성 검사를 통과합니다. 파일만 올리면 앱 목록에 자동 반영되지 않습니다. 담아 앱에서 꾸러미 추가 → 웹에서 가져오기를 다시 열면 목록을 조회합니다.
+
+같은 ID의 이미 가져온 카드는 개인 수정과 학습 기록을 보호하기 위해 자동으로 덮어쓰지 않습니다. 이번 교체는 공개 다운로드 원본을 갱신한 것입니다.
+
+가벼운 내용 점검에서 영어→일본어 EIKEN의 reading에 일본어 표기가 있고 일부 예문 번역이 한국어인 것을 확인했습니다. 제공된 내용을 임의 번역·수정하지 않았으며 번역 정확성 전수 검수는 수행하지 않았습니다.
