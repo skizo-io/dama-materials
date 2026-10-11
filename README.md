@@ -13,6 +13,8 @@
 | TOPIK 어휘 · 한국어 → 영어 | 6,375 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-topik.json) |
 | TOPIK 어휘 · 한국어 → 일본어 | 6,316 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-topik.json) |
 
+출처·배포 조건: [SOURCES.md](SOURCES.md)
+
 ## 자료 안내
 
 - CEFR: 대표 뜻 중심이며 예문은 포함하지 않습니다. 일부 번역은 추가 검수가 필요합니다.
