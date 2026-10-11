@@ -4,8 +4,8 @@
 
 | 자료 | 카드 | 꾸러미 | 다운로드 |
 | --- | ---: | ---: | --- |
-| JLPT N1~N5 · 일본어 → 한국어 | 12,086 | 5 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-ko-jlpt.json) |
-| JLPT N1~N5 · 일본어 → 영어 | 12,086 | 5 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-en-jlpt.json) |
+| JLPT N1~N5 · 일본어 → 한국어 | 12,086 | 5 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-ko-jlpt-v3.json) |
+| JLPT N1~N5 · 일본어 → 영어 | 12,086 | 5 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-en-jlpt-v3.json) |
 | CEFR A1~C2 · 영어 → 한국어 | 7,946 | 6 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-cefr.json) |
 | CEFR A1~C2 · 영어 → 일본어 | 8,141 | 6 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ja-cefr.json) |
 | EIKEN · 영어 → 한국어 | 10,729 | 8 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-eiken.json) |
@@ -38,3 +38,5 @@ Catalog: [catalog.json](https://raw.githubusercontent.com/skizo-io/dama-material
 가벼운 내용 점검에서 영어→일본어 EIKEN의 reading에 일본어 표기가 있고 일부 예문 번역이 한국어인 것을 확인했습니다. 제공된 내용을 임의 번역·수정하지 않았으며 번역 정확성 전수 검수는 수행하지 않았습니다.
 
 2026-10-11 EIKEN限定修正(version=3): 英日readingの日本語を英語発音表記に修正（既存英韓資料にある発音のみ使用、ない場合は空欄）。英日例文の韓国語訳を削除し、明らかに不自然・意味不一致の例文だけ修正または削除しました。正常な既存英語例文は保ち、新しい例文の大量生成は行っていません。CEFRおよび他の資料は変更していません。
+
+2026-10-12 JLPT version=3: 반복 앞면 안내와 불필요한 편집 기록만 정리했습니다. 실제 예문·번역·단어·뜻·발음·카드 ID·꾸러미는 보존했습니다. 추가 검토153가지 중 학습 설명100가지는 유지하고53가지에서 편집 문구를 정리했습니다. CEFR·EIKEN·TOPIK6파일은 변경하지 않았습니다. 같은 ID의 재가져오기는 중복을 만들지 않지만, 이미 저장된 카드의 안내 문구를 자동으로 갱신하지 않습니다.
