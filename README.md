@@ -10,12 +10,12 @@
 | JLPT N4 · 일본어 → 한국어 | 666 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n4.json) |
 | JLPT N5 · 일본어 → 한국어 | 745 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n5.json) |
 | 일본어 문법 · 일본어 → 한국어 | 740 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-grammar.json) |
-| JLPT N1 · 일본어 → 영어 | 4,151 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n1.json) |
-| JLPT N2 · 일본어 → 영어 | 2,361 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n2.json) |
-| JLPT N3 · 일본어 → 영어 | 2,107 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n3.json) |
-| JLPT N4 · 일본어 → 영어 | 666 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n4.json) |
-| JLPT N5 · 일본어 → 영어 | 745 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n5.json) |
-| 일본어 문법 · 일본어 → 영어 | 740 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-grammar.json) |
+| JLPT N1 · JA→EN | 4,151 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n1.json) |
+| JLPT N2 · JA→EN | 2,361 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n2.json) |
+| JLPT N3 · JA→EN | 2,107 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n3.json) |
+| JLPT N4 · JA→EN | 666 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n4.json) |
+| JLPT N5 · JA→EN | 745 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n5.json) |
+| JA→EN Grammar | 740 | 1 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-grammar-v2.json) |
 | CEFR A1~C2 · 영어 → 한국어 | 7,946 | 6 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-cefr.json) |
 | CEFR A1~C2 · 영어 → 일본어 | 8,141 | 6 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ja-cefr.json) |
 | EIKEN · 영어 → 한국어 | 10,729 | 8 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/en-ko-eiken.json) |
@@ -52,3 +52,5 @@ Catalog: [catalog.json](https://raw.githubusercontent.com/skizo-io/dama-material
 2026-10-12 JLPT version=3: 반복 앞면 안내와 불필요한 편집 기록만 정리했습니다. 실제 예문·번역·단어·뜻·발음·카드 ID·꾸러미는 보존했습니다. 추가 검토153가지 중 학습 설명100가지는 유지하고53가지에서 편집 문구를 정리했습니다. CEFR·EIKEN·TOPIK6파일은 변경하지 않았습니다. 같은 ID의 재가져오기는 중복을 만들지 않지만, 이미 저장된 카드의 안내 문구를 자동으로 갱신하지 않습니다.
 
 2026-10-12 일본어 자료 대체: 기존 통합 JLPT2종을 현재 목록에서 제거하고 사용자 제공 N1~N5·문법의 일한/일영12파일을 원본 바이트 그대로 등록했습니다. CEFR·EIKEN·TOPIK6종의 파일과 목록 항목은 유지했습니다. 과거 Release 자산은 보존되지만 현재 목록에는 노출하지 않습니다.
+
+2026-10-12 JA→EN labels: English-facing titles and descriptions updated for the six Japanese-to-English materials. Only the grammar deck name changed to `JA→EN Grammar`; card IDs and learning content are unchanged. Other materials are unchanged.

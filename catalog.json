@@ -94,8 +94,8 @@
     },
     {
       "id": "ja-en-jlpt-n1",
-      "title": "JLPT N1 · 일본어 → 영어",
-      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "title": "JLPT N1 · JA→EN",
+      "description": "Japanese vocabulary with English meanings. Some cards do not include example sentences or translations.",
       "language": "Japanese",
       "targetLanguage": "English",
       "version": "1",
@@ -109,8 +109,8 @@
     },
     {
       "id": "ja-en-jlpt-n2",
-      "title": "JLPT N2 · 일본어 → 영어",
-      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "title": "JLPT N2 · JA→EN",
+      "description": "Japanese vocabulary with English meanings. Some cards do not include example sentences or translations.",
       "language": "Japanese",
       "targetLanguage": "English",
       "version": "1",
@@ -124,8 +124,8 @@
     },
     {
       "id": "ja-en-jlpt-n3",
-      "title": "JLPT N3 · 일본어 → 영어",
-      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "title": "JLPT N3 · JA→EN",
+      "description": "Japanese vocabulary with English meanings. Some cards do not include example sentences or translations.",
       "language": "Japanese",
       "targetLanguage": "English",
       "version": "1",
@@ -139,8 +139,8 @@
     },
     {
       "id": "ja-en-jlpt-n4",
-      "title": "JLPT N4 · 일본어 → 영어",
-      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "title": "JLPT N4 · JA→EN",
+      "description": "Japanese vocabulary with English meanings. Some cards do not include example sentences or translations.",
       "language": "Japanese",
       "targetLanguage": "English",
       "version": "1",
@@ -154,8 +154,8 @@
     },
     {
       "id": "ja-en-jlpt-n5",
-      "title": "JLPT N5 · 일본어 → 영어",
-      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "title": "JLPT N5 · JA→EN",
+      "description": "Japanese vocabulary with English meanings. Some cards do not include example sentences or translations.",
       "language": "Japanese",
       "targetLanguage": "English",
       "version": "1",
@@ -169,17 +169,17 @@
     },
     {
       "id": "ja-en-grammar",
-      "title": "일본어 문법 · 일본어 → 영어",
-      "description": "JLPT 등급 안내가 포함된 일본어 문법 원본 자료.",
+      "title": "JA→EN Grammar",
+      "description": "Japanese grammar with English meanings, examples and explanations. JLPT levels are included in the notes.",
       "language": "Japanese",
       "targetLanguage": "English",
-      "version": "1",
-      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-grammar.json",
-      "sha256": "b99405f4045a59b065fa3bc2c144aa0c75a6d1c3aba11ffc63d9c534be3b6b54",
-      "bytes": 439014,
+      "version": "2",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-grammar-v2.json",
+      "sha256": "ccc027d4b27bbeb9345c4c93127958d34f8c11f051e9700443cd9a2c6a7795eb",
+      "bytes": 432354,
       "cards": 740,
       "decks": {
-        "Japanese-English Grammar": 740
+        "JA→EN Grammar": 740
       }
     },
     {
