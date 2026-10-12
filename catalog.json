@@ -3,41 +3,183 @@
   "version": 1,
   "packs": [
     {
-      "id": "ja-ko-jlpt",
-      "title": "JLPT N1~N5 · 일본어 → 한국어",
-      "description": "JLPT 단계별 일본어 단어와 한국어 뜻.",
+      "id": "ja-ko-jlpt-n1",
+      "title": "JLPT N1 · 일본어 → 한국어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
       "language": "일본어",
       "targetLanguage": "한국어",
-      "version": "3",
-      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-ko-jlpt-v3.json",
-      "sha256": "2457f652f823ae94cc03212759ebb93e68fc7d9a0dc2ca8b1906e29a427cc604",
-      "bytes": 4376361,
-      "cards": 12086,
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n1.json",
+      "sha256": "e17297b77e61055a3004e099cf7f00b8105a59f95dab1da68c06b1ee198987c6",
+      "bytes": 1548090,
+      "cards": 4151,
       "decks": {
-        "JLPT N1": 1280,
-        "JLPT N2": 5443,
-        "JLPT N3": 2349,
-        "JLPT N4": 1572,
-        "JLPT N5": 1442
+        "JLPT N1": 4151
       }
     },
     {
-      "id": "ja-en-jlpt",
-      "title": "JLPT N1~N5 · 일본어 → 영어",
-      "description": "JLPT 단계별 일본어 단어와 영어 뜻.",
+      "id": "ja-ko-jlpt-n2",
+      "title": "JLPT N2 · 일본어 → 한국어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
       "language": "일본어",
-      "targetLanguage": "영어",
-      "version": "3",
-      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ja-en-jlpt-v3.json",
-      "sha256": "92c3e86170e234033aec1ece2fa4d96737f93326c099e10bef29c97b80e50565",
-      "bytes": 4323281,
-      "cards": 12086,
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n2.json",
+      "sha256": "fa43088dbb7a67ad5ef010ca5ba79f3940003cd214606c9a909889c857f89b45",
+      "bytes": 951147,
+      "cards": 2361,
       "decks": {
-        "JLPT N1": 1280,
-        "JLPT N2": 5443,
-        "JLPT N3": 2349,
-        "JLPT N4": 1572,
-        "JLPT N5": 1442
+        "JLPT N2": 2361
+      }
+    },
+    {
+      "id": "ja-ko-jlpt-n3",
+      "title": "JLPT N3 · 일본어 → 한국어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "일본어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n3.json",
+      "sha256": "78abc80534f5c5d22caa45240ed8bdc39ae5c1617cae4d0507aa88054185a4f6",
+      "bytes": 849839,
+      "cards": 2107,
+      "decks": {
+        "JLPT N3": 2107
+      }
+    },
+    {
+      "id": "ja-ko-jlpt-n4",
+      "title": "JLPT N4 · 일본어 → 한국어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "일본어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n4.json",
+      "sha256": "f10d61e90d33e2b4f60aad0424e50da41cb35c6a1a9ae5308e7902c95c0db579",
+      "bytes": 329398,
+      "cards": 666,
+      "decks": {
+        "JLPT N4": 666
+      }
+    },
+    {
+      "id": "ja-ko-jlpt-n5",
+      "title": "JLPT N5 · 일본어 → 한국어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "일본어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-jlpt-n5.json",
+      "sha256": "e951443d0514fa76053d810ffe1ada897aee8aaf0b6c41056e6d9327973e35be",
+      "bytes": 339918,
+      "cards": 745,
+      "decks": {
+        "JLPT N5": 745
+      }
+    },
+    {
+      "id": "ja-ko-grammar",
+      "title": "일본어 문법 · 일본어 → 한국어",
+      "description": "JLPT 등급 안내가 포함된 일본어 문법 원본 자료.",
+      "language": "일본어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-ko-grammar.json",
+      "sha256": "bc2a539e1a00f6ec434d7e0cb52931578b687df1ced822085671d64a2ca04174",
+      "bytes": 413235,
+      "cards": 740,
+      "decks": {
+        "일한 문법": 740
+      }
+    },
+    {
+      "id": "ja-en-jlpt-n1",
+      "title": "JLPT N1 · 일본어 → 영어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n1.json",
+      "sha256": "a84e23906f021f9ccce461366ed1fedc6b4b473af99dc04ddb0535c506eb1d99",
+      "bytes": 1567992,
+      "cards": 4151,
+      "decks": {
+        "JLPT N1": 4151
+      }
+    },
+    {
+      "id": "ja-en-jlpt-n2",
+      "title": "JLPT N2 · 일본어 → 영어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n2.json",
+      "sha256": "e63d5a17bdfd629b01f4120e44eaafa74a2ab2ab873512392fed9345b8fb65cd",
+      "bytes": 966105,
+      "cards": 2361,
+      "decks": {
+        "JLPT N2": 2361
+      }
+    },
+    {
+      "id": "ja-en-jlpt-n3",
+      "title": "JLPT N3 · 일본어 → 영어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n3.json",
+      "sha256": "6106ae69327d2e021faa2d04e2a56a8d1d6fc0fc2219c4fd26ae352ee8087fce",
+      "bytes": 862796,
+      "cards": 2107,
+      "decks": {
+        "JLPT N3": 2107
+      }
+    },
+    {
+      "id": "ja-en-jlpt-n4",
+      "title": "JLPT N4 · 일본어 → 영어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n4.json",
+      "sha256": "445f907289ab130947f5a964cfe6416144d473235c10dc8db2b14348ffe4b40f",
+      "bytes": 332614,
+      "cards": 666,
+      "decks": {
+        "JLPT N4": 666
+      }
+    },
+    {
+      "id": "ja-en-jlpt-n5",
+      "title": "JLPT N5 · 일본어 → 영어",
+      "description": "첨부 원본 자료. 일부 단어에는 예문·번역이 포함되지 않습니다.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-jlpt-n5.json",
+      "sha256": "05638a1aa71eebef1e5dc7339e08bf1784e999f38b7a944aceb8415a9dd2528d",
+      "bytes": 344788,
+      "cards": 745,
+      "decks": {
+        "JLPT N5": 745
+      }
+    },
+    {
+      "id": "ja-en-grammar",
+      "title": "일본어 문법 · 일본어 → 영어",
+      "description": "JLPT 등급 안내가 포함된 일본어 문법 원본 자료.",
+      "language": "Japanese",
+      "targetLanguage": "English",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-ja-en-grammar.json",
+      "sha256": "b99405f4045a59b065fa3bc2c144aa0c75a6d1c3aba11ffc63d9c534be3b6b54",
+      "bytes": 439014,
+      "cards": 740,
+      "decks": {
+        "Japanese-English Grammar": 740
       }
     },
     {
