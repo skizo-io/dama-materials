@@ -181,6 +181,186 @@
       "decks": {
         "JA→EN Grammar": 740
       }
+    },
+    {
+      "id": "ko-en-nikl-grade1",
+      "title": "KO→EN NIKL 1",
+      "description": "NIKL curriculum vocabulary, grade 1. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade1.json",
+      "sha256": "b8ec42fcd23b5674901f81ed6972c2487e06dfe6301185369cb1bea35b84f21d",
+      "bytes": 263319,
+      "cards": 735,
+      "decks": {
+        "KO→EN NIKL 1": 735
+      }
+    },
+    {
+      "id": "ko-en-nikl-grade2",
+      "title": "KO→EN NIKL 2",
+      "description": "NIKL curriculum vocabulary, grade 2. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade2.json",
+      "sha256": "ad559521c2b678e1820b8a02465dd5084b01b5172e4e1dda3cc26e1e04e42664",
+      "bytes": 392003,
+      "cards": 1100,
+      "decks": {
+        "KO→EN NIKL 2": 1100
+      }
+    },
+    {
+      "id": "ko-en-nikl-grade3",
+      "title": "KO→EN NIKL 3",
+      "description": "NIKL curriculum vocabulary, grade 3. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade3.json",
+      "sha256": "595d14648c6841098601b6a5ff132c7ab0e4f61de032df61b6e885cd7eaa746a",
+      "bytes": 595437,
+      "cards": 1655,
+      "decks": {
+        "KO→EN NIKL 3": 1655
+      }
+    },
+    {
+      "id": "ko-en-nikl-grade4",
+      "title": "KO→EN NIKL 4",
+      "description": "NIKL curriculum vocabulary, grade 4. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade4.json",
+      "sha256": "fa46616504e2a4d14ecfb497a1dc29baf4e74154fbf71bdf0bd349f069782a43",
+      "bytes": 788555,
+      "cards": 2200,
+      "decks": {
+        "KO→EN NIKL 4": 2200
+      }
+    },
+    {
+      "id": "ko-en-nikl-grade5",
+      "title": "KO→EN NIKL 5",
+      "description": "NIKL curriculum vocabulary, grade 5. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade5.json",
+      "sha256": "b8f1503a894a13da8daf7a6ab7108c0decb0bf3f70671bca50288744883256c2",
+      "bytes": 845348,
+      "cards": 2365,
+      "decks": {
+        "KO→EN NIKL 5": 2365
+      }
+    },
+    {
+      "id": "ko-en-nikl-grade6",
+      "title": "KO→EN NIKL 6",
+      "description": "NIKL curriculum vocabulary, grade 6. Original study content preserved. Pronunciation is an approximate guide; not a verified official test-level list.",
+      "language": "한국어",
+      "targetLanguage": "영어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-en-nikl-grade6.json",
+      "sha256": "274d19ef935547aab93feac958bc79078f1e2942a24f9dd687edfdc36c6823b5",
+      "bytes": 934014,
+      "cards": 2580,
+      "decks": {
+        "KO→EN NIKL 6": 2580
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade1",
+      "title": "KO→JA NIKL 1級",
+      "description": "国立国語院の教育課程語彙・1級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade1.json",
+      "sha256": "8e7fc6316c5d33c3131432c38f926e570e3c00b2911dca23ab9631f5ad557af7",
+      "bytes": 268319,
+      "cards": 735,
+      "decks": {
+        "KO→JA NIKL 1級": 735
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade2",
+      "title": "KO→JA NIKL 2級",
+      "description": "国立国語院の教育課程語彙・2級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade2.json",
+      "sha256": "4e1f34bb719b20532c827d7871a8f26d362d8945bb21aa9b364d8f591eee34d7",
+      "bytes": 402941,
+      "cards": 1100,
+      "decks": {
+        "KO→JA NIKL 2級": 1100
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade3",
+      "title": "KO→JA NIKL 3級",
+      "description": "国立国語院の教育課程語彙・3級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade3.json",
+      "sha256": "161301a126824da5d0c92c212982cb01d965a1a75cb436a62f446205a0110198",
+      "bytes": 615391,
+      "cards": 1655,
+      "decks": {
+        "KO→JA NIKL 3級": 1655
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade4",
+      "title": "KO→JA NIKL 4級",
+      "description": "国立国語院の教育課程語彙・4級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade4.json",
+      "sha256": "e22dab1e93c792dc5e19b110794f0e1b0dc92b0191efaadcb6aa6fdab25339f3",
+      "bytes": 798163,
+      "cards": 2200,
+      "decks": {
+        "KO→JA NIKL 4級": 2200
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade5",
+      "title": "KO→JA NIKL 5級",
+      "description": "国立国語院の教育課程語彙・5級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade5.json",
+      "sha256": "835efcb0c3586805f85761ea5bc13e25a2c9506e40227002e512980c8a001e51",
+      "bytes": 859566,
+      "cards": 2365,
+      "decks": {
+        "KO→JA NIKL 5級": 2365
+      }
+    },
+    {
+      "id": "ko-ja-nikl-grade6",
+      "title": "KO→JA NIKL 6級",
+      "description": "国立国語院の教育課程語彙・6級。学習内容は原文のままです。読みは発音の近似表記で、公式試験の級別語彙を保証するものではありません。",
+      "language": "한국어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/ko-ja-nikl-grade6.json",
+      "sha256": "690c89aaefb5ead04ad6d8b23fbb15aeee522ec646b46890b3d7f9a84c426229",
+      "bytes": 947653,
+      "cards": 2580,
+      "decks": {
+        "KO→JA NIKL 6級": 2580
+      }
     }
   ]
 }
