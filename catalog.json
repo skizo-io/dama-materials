@@ -541,6 +541,246 @@
       "decks": {
         "CEFR C2 · 英語→日本語": 1269
       }
+    },
+    {
+      "id": "en-ko-eiken-5kyu",
+      "title": "EIKEN 5급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-5kyu_en-ko.json",
+      "sha256": "9a1e9c1678ee7538f5b6d4aeecb7e6936e0dfc3ab028ef53a300a70ec67936d3",
+      "bytes": 266066,
+      "cards": 611,
+      "decks": {
+        "EIKEN 5급 · 영어→한국어": 611
+      }
+    },
+    {
+      "id": "en-ko-eiken-4kyu",
+      "title": "EIKEN 4급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-4kyu_en-ko.json",
+      "sha256": "71fd79731f515277b241074ce9522f8c37c9b3afc82405d6a8fa7ec33b03203d",
+      "bytes": 209586,
+      "cards": 544,
+      "decks": {
+        "EIKEN 4급 · 영어→한국어": 544
+      }
+    },
+    {
+      "id": "en-ko-eiken-3kyu",
+      "title": "EIKEN 3급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-3kyu_en-ko.json",
+      "sha256": "b2a8ce12cd0549a3391ffe1b030c9a4730a346770963620724979973aa8af611",
+      "bytes": 252080,
+      "cards": 646,
+      "decks": {
+        "EIKEN 3급 · 영어→한국어": 646
+      }
+    },
+    {
+      "id": "en-ko-eiken-pre2kyu",
+      "title": "EIKEN 준2급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre2kyu_en-ko.json",
+      "sha256": "c09b1ad16b6da705d9e864a8cd0deb18cf9b21d2b0677b625771dc7ebe8ee12d",
+      "bytes": 651404,
+      "cards": 1659,
+      "decks": {
+        "EIKEN 준2급 · 영어→한국어": 1659
+      }
+    },
+    {
+      "id": "en-ko-eiken-pre2pluskyu",
+      "title": "EIKEN 준2+급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre2pluskyu_en-ko.json",
+      "sha256": "b455350eedbbf080ecba8eb019b0b5b429074dbf94308b7071571f6755e5c069",
+      "bytes": 386661,
+      "cards": 951,
+      "decks": {
+        "EIKEN 준2+급 · 영어→한국어": 951
+      }
+    },
+    {
+      "id": "en-ko-eiken-2kyu",
+      "title": "EIKEN 2급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-2kyu_en-ko.json",
+      "sha256": "3bd4d5435cacd61d3cf37f90084d983f29887a04d98c2ae2ebe85869e2550889",
+      "bytes": 437321,
+      "cards": 1099,
+      "decks": {
+        "EIKEN 2급 · 영어→한국어": 1099
+      }
+    },
+    {
+      "id": "en-ko-eiken-pre1kyu",
+      "title": "EIKEN 준1급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre1kyu_en-ko.json",
+      "sha256": "9e116ef6370d653c3db940f8efdcdb4afd855da37c6cec70f64d58701188fd8e",
+      "bytes": 1125483,
+      "cards": 2696,
+      "decks": {
+        "EIKEN 준1급 · 영어→한국어": 2696
+      }
+    },
+    {
+      "id": "en-ko-eiken-1kyu",
+      "title": "EIKEN 1급 · 영어→한국어",
+      "description": "사용자 제공 영검 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 급별 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-1kyu_en-ko.json",
+      "sha256": "0169f3c71780eb64d762e45cd85d08eb886823fc0f3ec737d6234acd2ae068e2",
+      "bytes": 1472460,
+      "cards": 3517,
+      "decks": {
+        "EIKEN 1급 · 영어→한국어": 3517
+      }
+    },
+    {
+      "id": "en-ja-eiken-5kyu",
+      "title": "EIKEN 5級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-5kyu_en-ja.json",
+      "sha256": "8271c5df34f45319db18ecd408110052b2af62066da0e05ed7f6dac3f73bfbcb",
+      "bytes": 268344,
+      "cards": 611,
+      "decks": {
+        "EIKEN 5級 · 英語→日本語": 611
+      }
+    },
+    {
+      "id": "en-ja-eiken-4kyu",
+      "title": "EIKEN 4級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-4kyu_en-ja.json",
+      "sha256": "ada04c0604976f7833e9876929140d07f0bcd7f0bb2b4499d2de58f912533a9a",
+      "bytes": 212487,
+      "cards": 544,
+      "decks": {
+        "EIKEN 4級 · 英語→日本語": 544
+      }
+    },
+    {
+      "id": "en-ja-eiken-3kyu",
+      "title": "EIKEN 3級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-3kyu_en-ja.json",
+      "sha256": "b0f7290bed523c28419e1b56aa807cf41a03ff3f6efdfe164035e15f21059549",
+      "bytes": 254903,
+      "cards": 646,
+      "decks": {
+        "EIKEN 3級 · 英語→日本語": 646
+      }
+    },
+    {
+      "id": "en-ja-eiken-pre2kyu",
+      "title": "EIKEN 準2級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre2kyu_en-ja.json",
+      "sha256": "a00a70390062b97769aab454f2a57334121be4ccc4f3ceea67589dc45b643a36",
+      "bytes": 659028,
+      "cards": 1659,
+      "decks": {
+        "EIKEN 準2級 · 英語→日本語": 1659
+      }
+    },
+    {
+      "id": "en-ja-eiken-pre2pluskyu",
+      "title": "EIKEN 準2+級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre2pluskyu_en-ja.json",
+      "sha256": "8563f04be45a759a4ee8cc69bd5f8a5a0ee5827cfc6c01a453231bccc10f908e",
+      "bytes": 391517,
+      "cards": 951,
+      "decks": {
+        "EIKEN 準2+級 · 英語→日本語": 951
+      }
+    },
+    {
+      "id": "en-ja-eiken-2kyu",
+      "title": "EIKEN 2級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-2kyu_en-ja.json",
+      "sha256": "4dd6a1b21051b2ebe6b4676d9ff08b80c524e9f465164de893e02ddb4e402ecc",
+      "bytes": 442539,
+      "cards": 1099,
+      "decks": {
+        "EIKEN 2級 · 英語→日本語": 1099
+      }
+    },
+    {
+      "id": "en-ja-eiken-pre1kyu",
+      "title": "EIKEN 準1級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-pre1kyu_en-ja.json",
+      "sha256": "64e4867a924cbdeef1770c98d78975246b791f685c7bc18e38add535f5324e8b",
+      "bytes": 1139538,
+      "cards": 2696,
+      "decks": {
+        "EIKEN 準1級 · 英語→日本語": 2696
+      }
+    },
+    {
+      "id": "en-ja-eiken-1kyu",
+      "title": "EIKEN 1級 · 英語→日本語",
+      "description": "提供された英検語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/eiken-1kyu_en-ja.json",
+      "sha256": "61ff26f55ec816b23f702280a3f60a6b0dda45847aa4582e04e470ea4d659fa0",
+      "bytes": 1488267,
+      "cards": 3517,
+      "decks": {
+        "EIKEN 1級 · 英語→日本語": 3517
+      }
     }
   ]
 }
