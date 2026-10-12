@@ -361,6 +361,186 @@
       "decks": {
         "KO→JA NIKL 6級": 2580
       }
+    },
+    {
+      "id": "en-ko-cefr-a1",
+      "title": "CEFR A1 · 영어→한국어",
+      "description": "사용자 제공 CEFR A1 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-A1_en-ko.json",
+      "sha256": "8adeaed1a96d7a68beabdaf62fe5ad161d850cb7176aae25958b21ec3ef205aa",
+      "bytes": 337638,
+      "cards": 820,
+      "decks": {
+        "CEFR A1 · 영어→한국어": 820
+      }
+    },
+    {
+      "id": "en-ko-cefr-a2",
+      "title": "CEFR A2 · 영어→한국어",
+      "description": "사용자 제공 CEFR A2 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-A2_en-ko.json",
+      "sha256": "a83d3de0f89fe6757e2f516100bdb31b3dae1ffcc280431c4e6f156cf98471ad",
+      "bytes": 433934,
+      "cards": 1135,
+      "decks": {
+        "CEFR A2 · 영어→한국어": 1135
+      }
+    },
+    {
+      "id": "en-ko-cefr-b1",
+      "title": "CEFR B1 · 영어→한국어",
+      "description": "사용자 제공 CEFR B1 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-B1_en-ko.json",
+      "sha256": "0e08aa6c0c3c1403dccc454456a95805e71d6659b383432192a9f6664513971a",
+      "bytes": 730496,
+      "cards": 1889,
+      "decks": {
+        "CEFR B1 · 영어→한국어": 1889
+      }
+    },
+    {
+      "id": "en-ko-cefr-b2",
+      "title": "CEFR B2 · 영어→한국어",
+      "description": "사용자 제공 CEFR B2 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-B2_en-ko.json",
+      "sha256": "e799ee070bbdccc33f7390b3b8a221a9c24626b88a3205f5baaa2d5fce6e771b",
+      "bytes": 1020582,
+      "cards": 2539,
+      "decks": {
+        "CEFR B2 · 영어→한국어": 2539
+      }
+    },
+    {
+      "id": "en-ko-cefr-c1",
+      "title": "CEFR C1 · 영어→한국어",
+      "description": "사용자 제공 CEFR C1 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-C1_en-ko.json",
+      "sha256": "2f83147b8eb4c80e7510a5bf782f4c068f872ab4b793c8d62555cd50ddf317d4",
+      "bytes": 1668738,
+      "cards": 4071,
+      "decks": {
+        "CEFR C1 · 영어→한국어": 4071
+      }
+    },
+    {
+      "id": "en-ko-cefr-c2",
+      "title": "CEFR C2 · 영어→한국어",
+      "description": "사용자 제공 CEFR C2 영어 어휘 자료. 일부 카드에는 예문이 없습니다. 학습 내용은 원본 그대로이며 번역·용법 전수 검수나 공식 단계 지정 목록을 보증하지 않습니다.",
+      "language": "영어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-C2_en-ko.json",
+      "sha256": "4ce697d3256b87cdf914efb95a1cd0fa4a956590178e1e51093772e2eab8e774",
+      "bytes": 502612,
+      "cards": 1269,
+      "decks": {
+        "CEFR C2 · 영어→한국어": 1269
+      }
+    },
+    {
+      "id": "en-ja-cefr-a1",
+      "title": "CEFR A1 · 英語→日本語",
+      "description": "提供されたCEFR A1の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-A1_en-ja.json",
+      "sha256": "2d374a1ac512779754b226f916784253616e188465081b057e20b8f02a15e898",
+      "bytes": 341024,
+      "cards": 820,
+      "decks": {
+        "CEFR A1 · 英語→日本語": 820
+      }
+    },
+    {
+      "id": "en-ja-cefr-a2",
+      "title": "CEFR A2 · 英語→日本語",
+      "description": "提供されたCEFR A2の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-A2_en-ja.json",
+      "sha256": "43cf35bc6322f85ad674996952883b4f1ea0c0a0de0f2d8d5eda425afe910909",
+      "bytes": 439726,
+      "cards": 1135,
+      "decks": {
+        "CEFR A2 · 英語→日本語": 1135
+      }
+    },
+    {
+      "id": "en-ja-cefr-b1",
+      "title": "CEFR B1 · 英語→日本語",
+      "description": "提供されたCEFR B1の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-B1_en-ja.json",
+      "sha256": "191643acbff48267263ee169b967099dad2404d06ca4c8e23a98dd6b5bfe6ab2",
+      "bytes": 739324,
+      "cards": 1889,
+      "decks": {
+        "CEFR B1 · 英語→日本語": 1889
+      }
+    },
+    {
+      "id": "en-ja-cefr-b2",
+      "title": "CEFR B2 · 英語→日本語",
+      "description": "提供されたCEFR B2の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-B2_en-ja.json",
+      "sha256": "b3cd0940fbf181d19d6785484bc71d21116f7dc6044b4944f5db0a9524095e9c",
+      "bytes": 1033755,
+      "cards": 2539,
+      "decks": {
+        "CEFR B2 · 英語→日本語": 2539
+      }
+    },
+    {
+      "id": "en-ja-cefr-c1",
+      "title": "CEFR C1 · 英語→日本語",
+      "description": "提供されたCEFR C1の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-C1_en-ja.json",
+      "sha256": "9a42382075156aaa8ed5da4699e3ff9bf13c0a05b406759ddc00840acbff6957",
+      "bytes": 1688045,
+      "cards": 4071,
+      "decks": {
+        "CEFR C1 · 英語→日本語": 4071
+      }
+    },
+    {
+      "id": "en-ja-cefr-c2",
+      "title": "CEFR C2 · 英語→日本語",
+      "description": "提供されたCEFR C2の英語語彙資料。一部のカードには例文がありません。学習内容は原文のままで、翻訳・用法の全件確認や公式の級別指定語彙を保証するものではありません。",
+      "language": "영어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/cefr-C2_en-ja.json",
+      "sha256": "77788f2638647e51bbfba06206ee2771d364c797741db213c10b8cb7ea5e4b75",
+      "bytes": 507688,
+      "cards": 1269,
+      "decks": {
+        "CEFR C2 · 英語→日本語": 1269
+      }
     }
   ]
 }
