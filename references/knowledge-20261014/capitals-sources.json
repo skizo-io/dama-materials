@@ -1,0 +1,2378 @@
+{
+  "title": "국가와 수도 카드 출처 및 검수 기록",
+  "checkedAt": "2026-10-14",
+  "scope": "UN 회원국 193개 + 교황청(카드명 바티칸 시국)·팔레스타인 2개 옵서버에 대응하는 195개 카드. 종속 지역 및 UN 회원국/옵서버가 아닌 별도 지위의 지역은 포함하지 않음.",
+  "method": "UNESCO 공식 API의 국가·ISO3·수도 자료를 직접 내려받아 195개 대상과 대조하고 한국어로 편집. 여러 수도·정부 소재지·분쟁·최근 이전 사례는 정부 또는 국제기구 자료로 보완. 짧은 지리 메모는 일반적이고 안정적인 지리 사실을 한국어로 요약했으며 개별 지형 문장마다 독립적인 현행 웹 검증을 실시한 것은 아님.",
+  "caveats": [
+    "수도와 정부 소재지, 정치·경제 수도를 구분한다. 수도 기능의 분산을 단일 수도로 축약하지 않았다.",
+    "예루살렘 및 팔레스타인 표기는 각 당사자의 주장과 행정 중심지를 구분하며 최종 지위에 대한 판단을 뜻하지 않는다.",
+    "인도네시아는 조회한 UNESCO 데이터의 자카르타와 2026년 5월 헌법재판소 설명을 반영했다. 이후 대통령령에 따른 변경 여부를 계속 보증하는 자료는 아니다.",
+    "UN 옵서버 주체는 교황청이며 바티칸 시국과 법적으로 같은 개념은 아니다. 학습 카드에는 두 개념의 차이를 설명했다.",
+    "인구·GDP·현직 지도자 등 변동성이 큰 수치는 넣지 않았다."
+  ],
+  "sources": [
+    {
+      "id": "unesco",
+      "title": "UNESCO DataHub: Member States",
+      "url": "https://data.unesco.org/explore/assets/cou001/explore/?flg=en-us",
+      "use": "국가·ISO 코드·수도의 기본 대조 자료. 일부 항목은 아래 공식 자료에 따라 보완."
+    },
+    {
+      "id": "unesco_api",
+      "title": "UNESCO official data export",
+      "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/cou001/exports/json?lang=en&timezone=UTC",
+      "use": "211개 원본 레코드에서 UN 회원국·옵서버 범위에 해당하는 195개를 선별."
+    },
+    {
+      "id": "un_members",
+      "title": "UN: Member States",
+      "url": "https://www.un.org/en/about-us/member-states",
+      "use": "193개 UN 회원국 범위."
+    },
+    {
+      "id": "un_observers",
+      "title": "UN: Non-Member Observer States",
+      "url": "https://research.un.org/en/unmembers/observers",
+      "use": "교황청 및 팔레스타인 옵서버 지위. 카드에서는 교황청과 바티칸 시국을 구분해 설명."
+    },
+    {
+      "id": "un_m49",
+      "title": "UN Statistics Division: M49",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview",
+      "use": "국가 코드·지리적 지역 대조용. 통계 분류이며 정치적 지위에 대한 판단이 아님."
+    },
+    {
+      "id": "gnq_government",
+      "title": "Equatorial Guinea government: declaration of capital",
+      "url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley",
+      "use": "2026년 1월 시우다드 데 라 파스로 수도 변경."
+    },
+    {
+      "id": "gnq_korean",
+      "title": "대한민국 외교부: 적도기니 주간 정세",
+      "url": "https://gq.mofa.go.kr/gq-ko/brd/m_10437/view.do?seq=1342143",
+      "use": "새 수도의 한국어 표기 시우다드 데 라 파스 확인."
+    },
+    {
+      "id": "indonesia",
+      "title": "Indonesia Constitutional Court: Capital Relocation Depends on Issuance of Presidential Decree",
+      "url": "https://en.mkri.id/news/details/2026-05-12/Capital_Relocation_Depends_on_Issuance_of_Presidential_Decree",
+      "use": "2026년 5월 12일 자료: 자카르타에서 누산타라로의 이전 효력은 대통령령에 달려 있음. UNESCO 현행 데이터는 Jakarta."
+    },
+    {
+      "id": "south_africa",
+      "title": "South African Government: provinces and capitals",
+      "url": "https://www.gov.za/about-sa/south-africas-provinces",
+      "use": "프리토리아 행정·케이프타운 입법·블룸폰테인 사법 수도 구분."
+    },
+    {
+      "id": "constitutional_court",
+      "title": "South African Government: Constitutional Court",
+      "url": "https://www.gov.za/about-government/contact-directory/judicial-institution/constitutional-court",
+      "use": "헌법재판소 소재지는 요하네스버그."
+    },
+    {
+      "id": "switzerland",
+      "title": "Swiss Federal Department of Foreign Affairs: Political system",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/political-system",
+      "use": "베른은 연방도시이며 사실상 수도."
+    },
+    {
+      "id": "nauru",
+      "title": "US Department of State: Independent States in the World (archive)",
+      "url": "https://2021-2025.state.gov/independent-states-in-the-world/",
+      "use": "야렌 지구에 정부가 있으나 공식 수도는 없다는 구분. 보관 자료이므로 현행 UNESCO의 Yaren District 표기와 함께 대조."
+    },
+    {
+      "id": "sri_lanka",
+      "title": "Sri Lanka Ministry of Foreign Affairs: National Profile and Geography",
+      "url": "https://www.mfa.gov.lk/en/national-profile-and-geography",
+      "use": "행정 수도 스리자야와르데네푸라코테 및 콜롬보 구분."
+    },
+    {
+      "id": "bolivia",
+      "title": "Bolivia Foreign Ministry: Acerca del ministerio",
+      "url": "https://cancilleria.gob.bo/mre/acerca-del-ministerio/",
+      "use": "수크레가 수도이며 중앙정부 기능은 라파스로 이전했다는 설명."
+    },
+    {
+      "id": "eswatini",
+      "title": "African Union: Eswatini capitals",
+      "url": "https://au.int/en/cities/lobambaroyal-and-legislative-mbabane-administrative",
+      "use": "로밤바 왕실·입법, 음바바네 행정 수도."
+    },
+    {
+      "id": "jerusalem",
+      "title": "UN: Key issues at stake",
+      "url": "https://www.un.org/unispal/permanent-status-issues/",
+      "use": "예루살렘의 최종 지위와 수도 주장에 관한 분쟁."
+    },
+    {
+      "id": "palestine_claim",
+      "title": "State of Palestine Negotiations Affairs Department report",
+      "url": "https://www.nad.ps/sites/default/files/vreporteng-_4mar.pdf",
+      "use": "팔레스타인의 동예루살렘 수도 주장. 라말라 행정 중심지는 UNESCO 데이터와 대조."
+    },
+    {
+      "id": "netherlands",
+      "title": "Government of the Netherlands: Culture at a first glance",
+      "url": "https://www.government.nl/binaries/government/documenten/publications/2017/04/21/culture-at-a-first-glance/CIB2015_ENG_publicatie_v8_DEF.pdf",
+      "use": "암스테르담 수도·헤이그 정부 소재지 구분."
+    },
+    {
+      "id": "malaysia",
+      "title": "Malaysia Prime Minister's Office: Perdana Putra",
+      "url": "https://www.pmo.gov.my/en/perdana-putra/",
+      "use": "푸트라자야 행정 중심지."
+    },
+    {
+      "id": "malaysia_capital",
+      "title": "Malaysia Department of Federal Territories",
+      "url": "https://www.jwp.gov.my/page/50WP",
+      "use": "쿠알라룸푸르 국가 수도·푸트라자야 연방 행정 중심지 구분."
+    },
+    {
+      "id": "yemen",
+      "title": "France Ministry for Europe and Foreign Affairs: Yemen",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/yemen/presentation-du-yemen",
+      "use": "사나 수도·아덴 임시 수도 구분."
+    },
+    {
+      "id": "antigua",
+      "title": "Antigua and Barbuda Department of Marine Services",
+      "url": "https://www.adoms.gov.ag/antigua-barbuda/",
+      "use": "UNESCO 수도 누락 항목을 세인트존스로 보완."
+    },
+    {
+      "id": "burundi",
+      "title": "Burundi Prime Minister: Présentation générale",
+      "url": "https://primature.gov.bi/presentation-generale/",
+      "use": "기테가 정치 수도·부줌부라 경제 수도."
+    },
+    {
+      "id": "benin",
+      "title": "Porto-Novo Municipality contingency plan",
+      "url": "https://porto-novo.mairie.bj/sites/default/files/2025-08/PCC%20de%20la%20Municipalit%C3%A9%20de%20Porto-Novo_01-04-2023.pdf",
+      "use": "포르토노보 수도 지위와 대통령실·부처의 코토누 이전 구분."
+    },
+    {
+      "id": "cote_divoire",
+      "title": "Côte d'Ivoire economic diplomacy portal",
+      "url": "https://www.eco.diplomatie.gouv.ci/home_rech_pays_ci",
+      "use": "야무수크로 정치 수도·아비장 경제 수도."
+    },
+    {
+      "id": "indonesia_ikn_202607",
+      "title": "Otorita IKN: Pembangunan Tahap II",
+      "url": "https://ikn.go.id/id/posts/pembangunan-tahap-ii-ikn-terus-berjalan-otorita-ikn-lakukan-evaluasi-berkala",
+      "use": "2028년 정치 수도 목표를 설명하는 2026년 자료를 추가 대조."
+    }
+  ],
+  "cardSources": [
+    {
+      "cardId": "dama-capitals-ko-GHA",
+      "iso3": "GHA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Ghana",
+      "baselineEnglishCapital": "Accra",
+      "selectedKoreanCapital": "아크라"
+    },
+    {
+      "cardId": "dama-capitals-ko-GAB",
+      "iso3": "GAB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Gabon",
+      "baselineEnglishCapital": "Libreville",
+      "selectedKoreanCapital": "리브르빌"
+    },
+    {
+      "cardId": "dama-capitals-ko-GUY",
+      "iso3": "GUY",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Guyana",
+      "baselineEnglishCapital": "Georgetown",
+      "selectedKoreanCapital": "조지타운"
+    },
+    {
+      "cardId": "dama-capitals-ko-GMB",
+      "iso3": "GMB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Gambia",
+      "baselineEnglishCapital": "Banjul",
+      "selectedKoreanCapital": "반줄"
+    },
+    {
+      "cardId": "dama-capitals-ko-GTM",
+      "iso3": "GTM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Guatemala",
+      "baselineEnglishCapital": "Guatemala City",
+      "selectedKoreanCapital": "과테말라시티"
+    },
+    {
+      "cardId": "dama-capitals-ko-GRD",
+      "iso3": "GRD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Grenada",
+      "baselineEnglishCapital": "St. George's",
+      "selectedKoreanCapital": "세인트조지스"
+    },
+    {
+      "cardId": "dama-capitals-ko-GRC",
+      "iso3": "GRC",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Greece",
+      "baselineEnglishCapital": "Athens",
+      "selectedKoreanCapital": "아테네"
+    },
+    {
+      "cardId": "dama-capitals-ko-GIN",
+      "iso3": "GIN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Guinea",
+      "baselineEnglishCapital": "Conakry",
+      "selectedKoreanCapital": "코나크리"
+    },
+    {
+      "cardId": "dama-capitals-ko-GNB",
+      "iso3": "GNB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Guinea-Bissau",
+      "baselineEnglishCapital": "Bissau",
+      "selectedKoreanCapital": "비사우"
+    },
+    {
+      "cardId": "dama-capitals-ko-NAM",
+      "iso3": "NAM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Namibia",
+      "baselineEnglishCapital": "Windhoek",
+      "selectedKoreanCapital": "빈트후크"
+    },
+    {
+      "cardId": "dama-capitals-ko-NRU",
+      "iso3": "NRU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "nauru"
+      ],
+      "baselineEnglishCountry": "Naoero",
+      "baselineEnglishCapital": "Yaren District",
+      "selectedKoreanCapital": "공식 수도 없음(정부 소재지: 야렌 지구)"
+    },
+    {
+      "cardId": "dama-capitals-ko-NGA",
+      "iso3": "NGA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Nigeria",
+      "baselineEnglishCapital": "Abuja",
+      "selectedKoreanCapital": "아부자"
+    },
+    {
+      "cardId": "dama-capitals-ko-SSD",
+      "iso3": "SSD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "South Sudan",
+      "baselineEnglishCapital": "Juba",
+      "selectedKoreanCapital": "주바"
+    },
+    {
+      "cardId": "dama-capitals-ko-ZAF",
+      "iso3": "ZAF",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "south_africa",
+        "constitutional_court"
+      ],
+      "baselineEnglishCountry": "South Africa",
+      "baselineEnglishCapital": "Pretoria",
+      "selectedKoreanCapital": "프리토리아(행정), 케이프타운(입법), 블룸폰테인(사법)"
+    },
+    {
+      "cardId": "dama-capitals-ko-NLD",
+      "iso3": "NLD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "netherlands"
+      ],
+      "baselineEnglishCountry": "Netherlands (Kingdom of the)",
+      "baselineEnglishCapital": "Amsterdam",
+      "selectedKoreanCapital": "암스테르담"
+    },
+    {
+      "cardId": "dama-capitals-ko-NPL",
+      "iso3": "NPL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Nepal",
+      "baselineEnglishCapital": "Kathmandu",
+      "selectedKoreanCapital": "카트만두"
+    },
+    {
+      "cardId": "dama-capitals-ko-NOR",
+      "iso3": "NOR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Norway",
+      "baselineEnglishCapital": "Oslo",
+      "selectedKoreanCapital": "오슬로"
+    },
+    {
+      "cardId": "dama-capitals-ko-NZL",
+      "iso3": "NZL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "New Zealand",
+      "baselineEnglishCapital": "Wellington",
+      "selectedKoreanCapital": "웰링턴"
+    },
+    {
+      "cardId": "dama-capitals-ko-NER",
+      "iso3": "NER",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Niger",
+      "baselineEnglishCapital": "Niamey",
+      "selectedKoreanCapital": "니아메"
+    },
+    {
+      "cardId": "dama-capitals-ko-NIC",
+      "iso3": "NIC",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Nicaragua",
+      "baselineEnglishCapital": "Managua",
+      "selectedKoreanCapital": "마나과"
+    },
+    {
+      "cardId": "dama-capitals-ko-KOR",
+      "iso3": "KOR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Republic of Korea",
+      "baselineEnglishCapital": "Seoul",
+      "selectedKoreanCapital": "서울"
+    },
+    {
+      "cardId": "dama-capitals-ko-DNK",
+      "iso3": "DNK",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Denmark",
+      "baselineEnglishCapital": "Copenhagen",
+      "selectedKoreanCapital": "코펜하겐"
+    },
+    {
+      "cardId": "dama-capitals-ko-DOM",
+      "iso3": "DOM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Dominican Republic",
+      "baselineEnglishCapital": "Santo Domingo",
+      "selectedKoreanCapital": "산토도밍고"
+    },
+    {
+      "cardId": "dama-capitals-ko-DMA",
+      "iso3": "DMA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Dominica",
+      "baselineEnglishCapital": "Roseau",
+      "selectedKoreanCapital": "로조"
+    },
+    {
+      "cardId": "dama-capitals-ko-DEU",
+      "iso3": "DEU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Germany",
+      "baselineEnglishCapital": "Berlin",
+      "selectedKoreanCapital": "베를린"
+    },
+    {
+      "cardId": "dama-capitals-ko-TLS",
+      "iso3": "TLS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Timor-Leste",
+      "baselineEnglishCapital": "Dili",
+      "selectedKoreanCapital": "딜리"
+    },
+    {
+      "cardId": "dama-capitals-ko-LAO",
+      "iso3": "LAO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Lao People's Democratic Republic",
+      "baselineEnglishCapital": "Vientiane",
+      "selectedKoreanCapital": "비엔티안"
+    },
+    {
+      "cardId": "dama-capitals-ko-LBR",
+      "iso3": "LBR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Liberia",
+      "baselineEnglishCapital": "Monrovia",
+      "selectedKoreanCapital": "몬로비아"
+    },
+    {
+      "cardId": "dama-capitals-ko-LVA",
+      "iso3": "LVA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Latvia",
+      "baselineEnglishCapital": "Riga",
+      "selectedKoreanCapital": "리가"
+    },
+    {
+      "cardId": "dama-capitals-ko-RUS",
+      "iso3": "RUS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Russian Federation",
+      "baselineEnglishCapital": "Moscow",
+      "selectedKoreanCapital": "모스크바"
+    },
+    {
+      "cardId": "dama-capitals-ko-LBN",
+      "iso3": "LBN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Lebanon",
+      "baselineEnglishCapital": "Beirut",
+      "selectedKoreanCapital": "베이루트"
+    },
+    {
+      "cardId": "dama-capitals-ko-LSO",
+      "iso3": "LSO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Lesotho",
+      "baselineEnglishCapital": "Maseru",
+      "selectedKoreanCapital": "마세루"
+    },
+    {
+      "cardId": "dama-capitals-ko-ROU",
+      "iso3": "ROU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Romania",
+      "baselineEnglishCapital": "Bucharest",
+      "selectedKoreanCapital": "부쿠레슈티"
+    },
+    {
+      "cardId": "dama-capitals-ko-LUX",
+      "iso3": "LUX",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Luxembourg",
+      "baselineEnglishCapital": "Luxembourg",
+      "selectedKoreanCapital": "룩셈부르크"
+    },
+    {
+      "cardId": "dama-capitals-ko-RWA",
+      "iso3": "RWA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Rwanda",
+      "baselineEnglishCapital": "Kigali",
+      "selectedKoreanCapital": "키갈리"
+    },
+    {
+      "cardId": "dama-capitals-ko-LBY",
+      "iso3": "LBY",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Libya",
+      "baselineEnglishCapital": "Tripoli",
+      "selectedKoreanCapital": "트리폴리"
+    },
+    {
+      "cardId": "dama-capitals-ko-LTU",
+      "iso3": "LTU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Lithuania",
+      "baselineEnglishCapital": "Vilnius",
+      "selectedKoreanCapital": "빌뉴스"
+    },
+    {
+      "cardId": "dama-capitals-ko-LIE",
+      "iso3": "LIE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Liechtenstein",
+      "baselineEnglishCapital": "Vaduz",
+      "selectedKoreanCapital": "파두츠"
+    },
+    {
+      "cardId": "dama-capitals-ko-MDG",
+      "iso3": "MDG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Madagascar",
+      "baselineEnglishCapital": "Antananarivo",
+      "selectedKoreanCapital": "안타나나리보"
+    },
+    {
+      "cardId": "dama-capitals-ko-MHL",
+      "iso3": "MHL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Marshall Islands",
+      "baselineEnglishCapital": "Majuro",
+      "selectedKoreanCapital": "마주로"
+    },
+    {
+      "cardId": "dama-capitals-ko-MWI",
+      "iso3": "MWI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Malawi",
+      "baselineEnglishCapital": "Lilongwe",
+      "selectedKoreanCapital": "릴롱궤"
+    },
+    {
+      "cardId": "dama-capitals-ko-MYS",
+      "iso3": "MYS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "malaysia",
+        "malaysia_capital"
+      ],
+      "baselineEnglishCountry": "Malaysia",
+      "baselineEnglishCapital": "Kuala Lumpur",
+      "selectedKoreanCapital": "쿠알라룸푸르"
+    },
+    {
+      "cardId": "dama-capitals-ko-MLI",
+      "iso3": "MLI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mali",
+      "baselineEnglishCapital": "Bamako",
+      "selectedKoreanCapital": "바마코"
+    },
+    {
+      "cardId": "dama-capitals-ko-MEX",
+      "iso3": "MEX",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mexico",
+      "baselineEnglishCapital": "Mexico City",
+      "selectedKoreanCapital": "멕시코시티"
+    },
+    {
+      "cardId": "dama-capitals-ko-MCO",
+      "iso3": "MCO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Monaco",
+      "baselineEnglishCapital": "Monaco",
+      "selectedKoreanCapital": "모나코"
+    },
+    {
+      "cardId": "dama-capitals-ko-MAR",
+      "iso3": "MAR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Morocco",
+      "baselineEnglishCapital": "Rabat",
+      "selectedKoreanCapital": "라바트"
+    },
+    {
+      "cardId": "dama-capitals-ko-MUS",
+      "iso3": "MUS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mauritius",
+      "baselineEnglishCapital": "Port Louis",
+      "selectedKoreanCapital": "포트루이스"
+    },
+    {
+      "cardId": "dama-capitals-ko-MRT",
+      "iso3": "MRT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mauritania",
+      "baselineEnglishCapital": "Nouakchott",
+      "selectedKoreanCapital": "누악쇼트"
+    },
+    {
+      "cardId": "dama-capitals-ko-MOZ",
+      "iso3": "MOZ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mozambique",
+      "baselineEnglishCapital": "Maputo",
+      "selectedKoreanCapital": "마푸투"
+    },
+    {
+      "cardId": "dama-capitals-ko-MNE",
+      "iso3": "MNE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Montenegro",
+      "baselineEnglishCapital": "Podgorica",
+      "selectedKoreanCapital": "포드고리차"
+    },
+    {
+      "cardId": "dama-capitals-ko-MDA",
+      "iso3": "MDA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Republic of Moldova",
+      "baselineEnglishCapital": "Chișinău",
+      "selectedKoreanCapital": "키시너우"
+    },
+    {
+      "cardId": "dama-capitals-ko-MDV",
+      "iso3": "MDV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Maldives",
+      "baselineEnglishCapital": "Malé",
+      "selectedKoreanCapital": "말레"
+    },
+    {
+      "cardId": "dama-capitals-ko-MLT",
+      "iso3": "MLT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Malta",
+      "baselineEnglishCapital": "Valletta",
+      "selectedKoreanCapital": "발레타"
+    },
+    {
+      "cardId": "dama-capitals-ko-MNG",
+      "iso3": "MNG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Mongolia",
+      "baselineEnglishCapital": "Ulaanbaatar",
+      "selectedKoreanCapital": "울란바토르"
+    },
+    {
+      "cardId": "dama-capitals-ko-USA",
+      "iso3": "USA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "United States of America",
+      "baselineEnglishCapital": "Washington, D.C.",
+      "selectedKoreanCapital": "워싱턴 D.C."
+    },
+    {
+      "cardId": "dama-capitals-ko-MMR",
+      "iso3": "MMR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Myanmar",
+      "baselineEnglishCapital": "Naypyidaw",
+      "selectedKoreanCapital": "네피도"
+    },
+    {
+      "cardId": "dama-capitals-ko-FSM",
+      "iso3": "FSM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Micronesia (Federated States of)",
+      "baselineEnglishCapital": "Palikir",
+      "selectedKoreanCapital": "팔리키르"
+    },
+    {
+      "cardId": "dama-capitals-ko-VUT",
+      "iso3": "VUT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Vanuatu",
+      "baselineEnglishCapital": "Port Vila",
+      "selectedKoreanCapital": "포트빌라"
+    },
+    {
+      "cardId": "dama-capitals-ko-BHR",
+      "iso3": "BHR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bahrain",
+      "baselineEnglishCapital": "Manama",
+      "selectedKoreanCapital": "마나마"
+    },
+    {
+      "cardId": "dama-capitals-ko-BRB",
+      "iso3": "BRB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Barbados",
+      "baselineEnglishCapital": "Bridgetown",
+      "selectedKoreanCapital": "브리지타운"
+    },
+    {
+      "cardId": "dama-capitals-ko-VAT",
+      "iso3": "VAT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "un_observers"
+      ],
+      "baselineEnglishCountry": "Holy See",
+      "baselineEnglishCapital": "Vatican City",
+      "selectedKoreanCapital": "바티칸"
+    },
+    {
+      "cardId": "dama-capitals-ko-BHS",
+      "iso3": "BHS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bahamas",
+      "baselineEnglishCapital": "Nassau",
+      "selectedKoreanCapital": "나소"
+    },
+    {
+      "cardId": "dama-capitals-ko-BGD",
+      "iso3": "BGD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bangladesh",
+      "baselineEnglishCapital": "Dhaka",
+      "selectedKoreanCapital": "다카"
+    },
+    {
+      "cardId": "dama-capitals-ko-BEN",
+      "iso3": "BEN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "benin"
+      ],
+      "baselineEnglishCountry": "Benin",
+      "baselineEnglishCapital": "Porto-Novo",
+      "selectedKoreanCapital": "포르토노보"
+    },
+    {
+      "cardId": "dama-capitals-ko-VEN",
+      "iso3": "VEN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Venezuela (Bolivarian Republic of)",
+      "baselineEnglishCapital": "Caracas",
+      "selectedKoreanCapital": "카라카스"
+    },
+    {
+      "cardId": "dama-capitals-ko-VNM",
+      "iso3": "VNM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Viet Nam",
+      "baselineEnglishCapital": "Hanoi",
+      "selectedKoreanCapital": "하노이"
+    },
+    {
+      "cardId": "dama-capitals-ko-BEL",
+      "iso3": "BEL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Belgium",
+      "baselineEnglishCapital": "Brussels",
+      "selectedKoreanCapital": "브뤼셀"
+    },
+    {
+      "cardId": "dama-capitals-ko-BLR",
+      "iso3": "BLR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Belarus",
+      "baselineEnglishCapital": "Minsk",
+      "selectedKoreanCapital": "민스크"
+    },
+    {
+      "cardId": "dama-capitals-ko-BLZ",
+      "iso3": "BLZ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Belize",
+      "baselineEnglishCapital": "Belmopan",
+      "selectedKoreanCapital": "벨모판"
+    },
+    {
+      "cardId": "dama-capitals-ko-BIH",
+      "iso3": "BIH",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bosnia and Herzegovina",
+      "baselineEnglishCapital": "Sarajevo",
+      "selectedKoreanCapital": "사라예보"
+    },
+    {
+      "cardId": "dama-capitals-ko-BWA",
+      "iso3": "BWA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Botswana",
+      "baselineEnglishCapital": "Gaborone",
+      "selectedKoreanCapital": "가보로네"
+    },
+    {
+      "cardId": "dama-capitals-ko-BOL",
+      "iso3": "BOL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "bolivia"
+      ],
+      "baselineEnglishCountry": "Bolivia (Plurinational State of)",
+      "baselineEnglishCapital": "La Paz",
+      "selectedKoreanCapital": "수크레(헌법상 수도), 라파스(정부 소재지)"
+    },
+    {
+      "cardId": "dama-capitals-ko-BDI",
+      "iso3": "BDI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "burundi"
+      ],
+      "baselineEnglishCountry": "Burundi",
+      "baselineEnglishCapital": "Gitega",
+      "selectedKoreanCapital": "기테가(정치 수도)"
+    },
+    {
+      "cardId": "dama-capitals-ko-BFA",
+      "iso3": "BFA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Burkina Faso",
+      "baselineEnglishCapital": "Ouagadougou",
+      "selectedKoreanCapital": "와가두구"
+    },
+    {
+      "cardId": "dama-capitals-ko-BTN",
+      "iso3": "BTN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bhutan",
+      "baselineEnglishCapital": "Thimphu",
+      "selectedKoreanCapital": "팀푸"
+    },
+    {
+      "cardId": "dama-capitals-ko-MKD",
+      "iso3": "MKD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "North Macedonia",
+      "baselineEnglishCapital": "Skopje",
+      "selectedKoreanCapital": "스코페"
+    },
+    {
+      "cardId": "dama-capitals-ko-PRK",
+      "iso3": "PRK",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Democratic People's Republic of Korea",
+      "baselineEnglishCapital": "Pyongyang",
+      "selectedKoreanCapital": "평양"
+    },
+    {
+      "cardId": "dama-capitals-ko-BGR",
+      "iso3": "BGR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Bulgaria",
+      "baselineEnglishCapital": "Sofia",
+      "selectedKoreanCapital": "소피아"
+    },
+    {
+      "cardId": "dama-capitals-ko-BRA",
+      "iso3": "BRA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Brazil",
+      "baselineEnglishCapital": "Brasília",
+      "selectedKoreanCapital": "브라질리아"
+    },
+    {
+      "cardId": "dama-capitals-ko-BRN",
+      "iso3": "BRN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Brunei Darussalam",
+      "baselineEnglishCapital": "Bandar Seri Begawan",
+      "selectedKoreanCapital": "반다르스리브가완"
+    },
+    {
+      "cardId": "dama-capitals-ko-WSM",
+      "iso3": "WSM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Samoa",
+      "baselineEnglishCapital": "Apia",
+      "selectedKoreanCapital": "아피아"
+    },
+    {
+      "cardId": "dama-capitals-ko-SAU",
+      "iso3": "SAU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Saudi Arabia",
+      "baselineEnglishCapital": "Riyadh",
+      "selectedKoreanCapital": "리야드"
+    },
+    {
+      "cardId": "dama-capitals-ko-SMR",
+      "iso3": "SMR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "San Marino",
+      "baselineEnglishCapital": "San Marino",
+      "selectedKoreanCapital": "산마리노"
+    },
+    {
+      "cardId": "dama-capitals-ko-STP",
+      "iso3": "STP",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Sao Tome and Principe",
+      "baselineEnglishCapital": "São Tomé",
+      "selectedKoreanCapital": "상투메"
+    },
+    {
+      "cardId": "dama-capitals-ko-SEN",
+      "iso3": "SEN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Senegal",
+      "baselineEnglishCapital": "Dakar",
+      "selectedKoreanCapital": "다카르"
+    },
+    {
+      "cardId": "dama-capitals-ko-SRB",
+      "iso3": "SRB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Serbia",
+      "baselineEnglishCapital": "Belgrade",
+      "selectedKoreanCapital": "베오그라드"
+    },
+    {
+      "cardId": "dama-capitals-ko-SYC",
+      "iso3": "SYC",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Seychelles",
+      "baselineEnglishCapital": "Victoria",
+      "selectedKoreanCapital": "빅토리아"
+    },
+    {
+      "cardId": "dama-capitals-ko-LCA",
+      "iso3": "LCA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Saint Lucia",
+      "baselineEnglishCapital": "Castries",
+      "selectedKoreanCapital": "캐스트리스"
+    },
+    {
+      "cardId": "dama-capitals-ko-VCT",
+      "iso3": "VCT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Saint Vincent and the Grenadines",
+      "baselineEnglishCapital": "Kingstown",
+      "selectedKoreanCapital": "킹스타운"
+    },
+    {
+      "cardId": "dama-capitals-ko-KNA",
+      "iso3": "KNA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Saint Kitts and Nevis",
+      "baselineEnglishCapital": "Basseterre",
+      "selectedKoreanCapital": "바스테르"
+    },
+    {
+      "cardId": "dama-capitals-ko-SOM",
+      "iso3": "SOM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Somalia",
+      "baselineEnglishCapital": "Mogadishu",
+      "selectedKoreanCapital": "모가디슈"
+    },
+    {
+      "cardId": "dama-capitals-ko-SLB",
+      "iso3": "SLB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Solomon Islands",
+      "baselineEnglishCapital": "Honiara",
+      "selectedKoreanCapital": "호니아라"
+    },
+    {
+      "cardId": "dama-capitals-ko-SDN",
+      "iso3": "SDN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Sudan",
+      "baselineEnglishCapital": "Khartoum",
+      "selectedKoreanCapital": "하르툼"
+    },
+    {
+      "cardId": "dama-capitals-ko-SUR",
+      "iso3": "SUR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Suriname",
+      "baselineEnglishCapital": "Paramaribo",
+      "selectedKoreanCapital": "파라마리보"
+    },
+    {
+      "cardId": "dama-capitals-ko-LKA",
+      "iso3": "LKA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "sri_lanka"
+      ],
+      "baselineEnglishCountry": "Sri Lanka",
+      "baselineEnglishCapital": "Colombo",
+      "selectedKoreanCapital": "스리자야와르데네푸라코테"
+    },
+    {
+      "cardId": "dama-capitals-ko-SWE",
+      "iso3": "SWE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Sweden",
+      "baselineEnglishCapital": "Stockholm",
+      "selectedKoreanCapital": "스톡홀름"
+    },
+    {
+      "cardId": "dama-capitals-ko-CHE",
+      "iso3": "CHE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "switzerland"
+      ],
+      "baselineEnglishCountry": "Switzerland",
+      "baselineEnglishCapital": "Bern",
+      "selectedKoreanCapital": "베른(연방도시·사실상 수도)"
+    },
+    {
+      "cardId": "dama-capitals-ko-ESP",
+      "iso3": "ESP",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Spain",
+      "baselineEnglishCapital": "Madrid",
+      "selectedKoreanCapital": "마드리드"
+    },
+    {
+      "cardId": "dama-capitals-ko-SVK",
+      "iso3": "SVK",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Slovakia",
+      "baselineEnglishCapital": "Bratislava",
+      "selectedKoreanCapital": "브라티슬라바"
+    },
+    {
+      "cardId": "dama-capitals-ko-SVN",
+      "iso3": "SVN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Slovenia",
+      "baselineEnglishCapital": "Ljubljana",
+      "selectedKoreanCapital": "류블랴나"
+    },
+    {
+      "cardId": "dama-capitals-ko-SYR",
+      "iso3": "SYR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Syrian Arab Republic",
+      "baselineEnglishCapital": "Damascus",
+      "selectedKoreanCapital": "다마스쿠스"
+    },
+    {
+      "cardId": "dama-capitals-ko-SLE",
+      "iso3": "SLE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Sierra Leone",
+      "baselineEnglishCapital": "Freetown",
+      "selectedKoreanCapital": "프리타운"
+    },
+    {
+      "cardId": "dama-capitals-ko-SGP",
+      "iso3": "SGP",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Singapore",
+      "baselineEnglishCapital": "Singapore",
+      "selectedKoreanCapital": "싱가포르"
+    },
+    {
+      "cardId": "dama-capitals-ko-ARE",
+      "iso3": "ARE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "United Arab Emirates",
+      "baselineEnglishCapital": "Abu Dhabi",
+      "selectedKoreanCapital": "아부다비"
+    },
+    {
+      "cardId": "dama-capitals-ko-ARM",
+      "iso3": "ARM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Armenia",
+      "baselineEnglishCapital": "Yerevan",
+      "selectedKoreanCapital": "예레반"
+    },
+    {
+      "cardId": "dama-capitals-ko-ARG",
+      "iso3": "ARG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Argentina",
+      "baselineEnglishCapital": "Buenos Aires",
+      "selectedKoreanCapital": "부에노스아이레스"
+    },
+    {
+      "cardId": "dama-capitals-ko-ISL",
+      "iso3": "ISL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Iceland",
+      "baselineEnglishCapital": "Reykjavík",
+      "selectedKoreanCapital": "레이캬비크"
+    },
+    {
+      "cardId": "dama-capitals-ko-HTI",
+      "iso3": "HTI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Haiti",
+      "baselineEnglishCapital": "Port-au-Prince",
+      "selectedKoreanCapital": "포르토프랭스"
+    },
+    {
+      "cardId": "dama-capitals-ko-IRL",
+      "iso3": "IRL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Ireland",
+      "baselineEnglishCapital": "Dublin",
+      "selectedKoreanCapital": "더블린"
+    },
+    {
+      "cardId": "dama-capitals-ko-AZE",
+      "iso3": "AZE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Azerbaijan",
+      "baselineEnglishCapital": "Baku",
+      "selectedKoreanCapital": "바쿠"
+    },
+    {
+      "cardId": "dama-capitals-ko-AFG",
+      "iso3": "AFG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Afghanistan",
+      "baselineEnglishCapital": "Kabul",
+      "selectedKoreanCapital": "카불"
+    },
+    {
+      "cardId": "dama-capitals-ko-AND",
+      "iso3": "AND",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Andorra",
+      "baselineEnglishCapital": "Andorra la Vella",
+      "selectedKoreanCapital": "안도라라베야"
+    },
+    {
+      "cardId": "dama-capitals-ko-ALB",
+      "iso3": "ALB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Albania",
+      "baselineEnglishCapital": "Tirana",
+      "selectedKoreanCapital": "티라나"
+    },
+    {
+      "cardId": "dama-capitals-ko-DZA",
+      "iso3": "DZA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Algeria",
+      "baselineEnglishCapital": "Algiers",
+      "selectedKoreanCapital": "알제"
+    },
+    {
+      "cardId": "dama-capitals-ko-AGO",
+      "iso3": "AGO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Angola",
+      "baselineEnglishCapital": "Luanda",
+      "selectedKoreanCapital": "루안다"
+    },
+    {
+      "cardId": "dama-capitals-ko-ATG",
+      "iso3": "ATG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "antigua"
+      ],
+      "baselineEnglishCountry": "Antigua and Barbuda",
+      "baselineEnglishCapital": null,
+      "selectedKoreanCapital": "세인트존스"
+    },
+    {
+      "cardId": "dama-capitals-ko-ERI",
+      "iso3": "ERI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Eritrea",
+      "baselineEnglishCapital": "Asmara",
+      "selectedKoreanCapital": "아스마라"
+    },
+    {
+      "cardId": "dama-capitals-ko-SWZ",
+      "iso3": "SWZ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "eswatini"
+      ],
+      "baselineEnglishCountry": "Eswatini",
+      "baselineEnglishCapital": "Lobamba",
+      "selectedKoreanCapital": "음바바네(행정), 로밤바(왕실·입법)"
+    },
+    {
+      "cardId": "dama-capitals-ko-EST",
+      "iso3": "EST",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Estonia",
+      "baselineEnglishCapital": "Tallinn",
+      "selectedKoreanCapital": "탈린"
+    },
+    {
+      "cardId": "dama-capitals-ko-ECU",
+      "iso3": "ECU",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Ecuador",
+      "baselineEnglishCapital": "Quito",
+      "selectedKoreanCapital": "키토"
+    },
+    {
+      "cardId": "dama-capitals-ko-ETH",
+      "iso3": "ETH",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Ethiopia",
+      "baselineEnglishCapital": "Addis Ababa",
+      "selectedKoreanCapital": "아디스아바바"
+    },
+    {
+      "cardId": "dama-capitals-ko-SLV",
+      "iso3": "SLV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "El Salvador",
+      "baselineEnglishCapital": "San Salvador",
+      "selectedKoreanCapital": "산살바도르"
+    },
+    {
+      "cardId": "dama-capitals-ko-GBR",
+      "iso3": "GBR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "United Kingdom of Great Britain and Northern Ireland",
+      "baselineEnglishCapital": "London",
+      "selectedKoreanCapital": "런던"
+    },
+    {
+      "cardId": "dama-capitals-ko-YEM",
+      "iso3": "YEM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "yemen"
+      ],
+      "baselineEnglishCountry": "Yemen",
+      "baselineEnglishCapital": "Aden",
+      "selectedKoreanCapital": "사나(수도), 아덴(임시 수도)"
+    },
+    {
+      "cardId": "dama-capitals-ko-OMN",
+      "iso3": "OMN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Oman",
+      "baselineEnglishCapital": "Muscat",
+      "selectedKoreanCapital": "무스카트"
+    },
+    {
+      "cardId": "dama-capitals-ko-AUT",
+      "iso3": "AUT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Austria",
+      "baselineEnglishCapital": "Vienna",
+      "selectedKoreanCapital": "빈"
+    },
+    {
+      "cardId": "dama-capitals-ko-HND",
+      "iso3": "HND",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Honduras",
+      "baselineEnglishCapital": "Tegucigalpa",
+      "selectedKoreanCapital": "테구시갈파"
+    },
+    {
+      "cardId": "dama-capitals-ko-JOR",
+      "iso3": "JOR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Jordan",
+      "baselineEnglishCapital": "Amman",
+      "selectedKoreanCapital": "암만"
+    },
+    {
+      "cardId": "dama-capitals-ko-UGA",
+      "iso3": "UGA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Uganda",
+      "baselineEnglishCapital": "Kampala",
+      "selectedKoreanCapital": "캄팔라"
+    },
+    {
+      "cardId": "dama-capitals-ko-URY",
+      "iso3": "URY",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Uruguay",
+      "baselineEnglishCapital": "Montevideo",
+      "selectedKoreanCapital": "몬테비데오"
+    },
+    {
+      "cardId": "dama-capitals-ko-UZB",
+      "iso3": "UZB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Uzbekistan",
+      "baselineEnglishCapital": "Tashkent",
+      "selectedKoreanCapital": "타슈켄트"
+    },
+    {
+      "cardId": "dama-capitals-ko-UKR",
+      "iso3": "UKR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Ukraine",
+      "baselineEnglishCapital": "Kyiv",
+      "selectedKoreanCapital": "키이우"
+    },
+    {
+      "cardId": "dama-capitals-ko-IRQ",
+      "iso3": "IRQ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Iraq",
+      "baselineEnglishCapital": "Baghdad",
+      "selectedKoreanCapital": "바그다드"
+    },
+    {
+      "cardId": "dama-capitals-ko-IRN",
+      "iso3": "IRN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Iran (Islamic Republic of)",
+      "baselineEnglishCapital": "Tehran",
+      "selectedKoreanCapital": "테헤란"
+    },
+    {
+      "cardId": "dama-capitals-ko-ISR",
+      "iso3": "ISR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "jerusalem"
+      ],
+      "baselineEnglishCountry": "Israel",
+      "baselineEnglishCapital": "Jerusalem",
+      "selectedKoreanCapital": "예루살렘(선언 수도·정부 소재지)"
+    },
+    {
+      "cardId": "dama-capitals-ko-EGY",
+      "iso3": "EGY",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Egypt",
+      "baselineEnglishCapital": "Cairo",
+      "selectedKoreanCapital": "카이로"
+    },
+    {
+      "cardId": "dama-capitals-ko-ITA",
+      "iso3": "ITA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Italy",
+      "baselineEnglishCapital": "Rome",
+      "selectedKoreanCapital": "로마"
+    },
+    {
+      "cardId": "dama-capitals-ko-IND",
+      "iso3": "IND",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "India",
+      "baselineEnglishCapital": "New Delhi",
+      "selectedKoreanCapital": "뉴델리"
+    },
+    {
+      "cardId": "dama-capitals-ko-IDN",
+      "iso3": "IDN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "indonesia"
+      ],
+      "baselineEnglishCountry": "Indonesia",
+      "baselineEnglishCapital": "Jakarta",
+      "selectedKoreanCapital": "자카르타"
+    },
+    {
+      "cardId": "dama-capitals-ko-JPN",
+      "iso3": "JPN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Japan",
+      "baselineEnglishCapital": "Tokyo",
+      "selectedKoreanCapital": "도쿄"
+    },
+    {
+      "cardId": "dama-capitals-ko-JAM",
+      "iso3": "JAM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Jamaica",
+      "baselineEnglishCapital": "Kingston",
+      "selectedKoreanCapital": "킹스턴"
+    },
+    {
+      "cardId": "dama-capitals-ko-ZMB",
+      "iso3": "ZMB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Zambia",
+      "baselineEnglishCapital": "Lusaka",
+      "selectedKoreanCapital": "루사카"
+    },
+    {
+      "cardId": "dama-capitals-ko-GNQ",
+      "iso3": "GNQ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "gnq_government",
+        "gnq_korean"
+      ],
+      "baselineEnglishCountry": "Equatorial Guinea",
+      "baselineEnglishCapital": "Ciudad de la Paz",
+      "selectedKoreanCapital": "시우다드 데 라 파스"
+    },
+    {
+      "cardId": "dama-capitals-ko-GEO",
+      "iso3": "GEO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Georgia",
+      "baselineEnglishCapital": "Tbilisi",
+      "selectedKoreanCapital": "트빌리시"
+    },
+    {
+      "cardId": "dama-capitals-ko-CHN",
+      "iso3": "CHN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "China",
+      "baselineEnglishCapital": "Beijing",
+      "selectedKoreanCapital": "베이징"
+    },
+    {
+      "cardId": "dama-capitals-ko-CAF",
+      "iso3": "CAF",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Central African Republic",
+      "baselineEnglishCapital": "Bangui",
+      "selectedKoreanCapital": "방기"
+    },
+    {
+      "cardId": "dama-capitals-ko-DJI",
+      "iso3": "DJI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Djibouti",
+      "baselineEnglishCapital": "Djibouti",
+      "selectedKoreanCapital": "지부티"
+    },
+    {
+      "cardId": "dama-capitals-ko-ZWE",
+      "iso3": "ZWE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Zimbabwe",
+      "baselineEnglishCapital": "Harare",
+      "selectedKoreanCapital": "하라레"
+    },
+    {
+      "cardId": "dama-capitals-ko-TCD",
+      "iso3": "TCD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Chad",
+      "baselineEnglishCapital": "N'Djamena",
+      "selectedKoreanCapital": "은자메나"
+    },
+    {
+      "cardId": "dama-capitals-ko-CZE",
+      "iso3": "CZE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Czechia",
+      "baselineEnglishCapital": "Prague",
+      "selectedKoreanCapital": "프라하"
+    },
+    {
+      "cardId": "dama-capitals-ko-CHL",
+      "iso3": "CHL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Chile",
+      "baselineEnglishCapital": "Santiago",
+      "selectedKoreanCapital": "산티아고"
+    },
+    {
+      "cardId": "dama-capitals-ko-CMR",
+      "iso3": "CMR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Cameroon",
+      "baselineEnglishCapital": "Yaoundé",
+      "selectedKoreanCapital": "야운데"
+    },
+    {
+      "cardId": "dama-capitals-ko-CPV",
+      "iso3": "CPV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Cabo Verde",
+      "baselineEnglishCapital": "Praia",
+      "selectedKoreanCapital": "프라이아"
+    },
+    {
+      "cardId": "dama-capitals-ko-KAZ",
+      "iso3": "KAZ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Kazakhstan",
+      "baselineEnglishCapital": "Astana",
+      "selectedKoreanCapital": "아스타나"
+    },
+    {
+      "cardId": "dama-capitals-ko-QAT",
+      "iso3": "QAT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Qatar",
+      "baselineEnglishCapital": "Doha",
+      "selectedKoreanCapital": "도하"
+    },
+    {
+      "cardId": "dama-capitals-ko-KHM",
+      "iso3": "KHM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Cambodia",
+      "baselineEnglishCapital": "Phnom Penh",
+      "selectedKoreanCapital": "프놈펜"
+    },
+    {
+      "cardId": "dama-capitals-ko-CAN",
+      "iso3": "CAN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Canada",
+      "baselineEnglishCapital": "Ottawa",
+      "selectedKoreanCapital": "오타와"
+    },
+    {
+      "cardId": "dama-capitals-ko-KEN",
+      "iso3": "KEN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Kenya",
+      "baselineEnglishCapital": "Nairobi",
+      "selectedKoreanCapital": "나이로비"
+    },
+    {
+      "cardId": "dama-capitals-ko-COM",
+      "iso3": "COM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Comoros",
+      "baselineEnglishCapital": "Moroni",
+      "selectedKoreanCapital": "모로니"
+    },
+    {
+      "cardId": "dama-capitals-ko-CRI",
+      "iso3": "CRI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Costa Rica",
+      "baselineEnglishCapital": "San José",
+      "selectedKoreanCapital": "산호세"
+    },
+    {
+      "cardId": "dama-capitals-ko-CIV",
+      "iso3": "CIV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "cote_divoire"
+      ],
+      "baselineEnglishCountry": "Côte d'Ivoire",
+      "baselineEnglishCapital": "Yamoussoukro",
+      "selectedKoreanCapital": "야무수크로"
+    },
+    {
+      "cardId": "dama-capitals-ko-COL",
+      "iso3": "COL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Colombia",
+      "baselineEnglishCapital": "Bogotá",
+      "selectedKoreanCapital": "보고타"
+    },
+    {
+      "cardId": "dama-capitals-ko-COG",
+      "iso3": "COG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Congo",
+      "baselineEnglishCapital": "Brazzaville",
+      "selectedKoreanCapital": "브라자빌"
+    },
+    {
+      "cardId": "dama-capitals-ko-COD",
+      "iso3": "COD",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Democratic Republic of the Congo",
+      "baselineEnglishCapital": "Kinshasa",
+      "selectedKoreanCapital": "킨샤사"
+    },
+    {
+      "cardId": "dama-capitals-ko-CUB",
+      "iso3": "CUB",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Cuba",
+      "baselineEnglishCapital": "Havana",
+      "selectedKoreanCapital": "아바나"
+    },
+    {
+      "cardId": "dama-capitals-ko-KWT",
+      "iso3": "KWT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Kuwait",
+      "baselineEnglishCapital": "Kuwait City",
+      "selectedKoreanCapital": "쿠웨이트시티"
+    },
+    {
+      "cardId": "dama-capitals-ko-HRV",
+      "iso3": "HRV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Croatia",
+      "baselineEnglishCapital": "Zagreb",
+      "selectedKoreanCapital": "자그레브"
+    },
+    {
+      "cardId": "dama-capitals-ko-KGZ",
+      "iso3": "KGZ",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Kyrgyzstan",
+      "baselineEnglishCapital": "Bishkek",
+      "selectedKoreanCapital": "비슈케크"
+    },
+    {
+      "cardId": "dama-capitals-ko-KIR",
+      "iso3": "KIR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Kiribati",
+      "baselineEnglishCapital": "South Tarawa",
+      "selectedKoreanCapital": "사우스타라와(남타라와)"
+    },
+    {
+      "cardId": "dama-capitals-ko-CYP",
+      "iso3": "CYP",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Cyprus",
+      "baselineEnglishCapital": "Nicosia",
+      "selectedKoreanCapital": "니코시아"
+    },
+    {
+      "cardId": "dama-capitals-ko-TJK",
+      "iso3": "TJK",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Tajikistan",
+      "baselineEnglishCapital": "Dushanbe",
+      "selectedKoreanCapital": "두샨베"
+    },
+    {
+      "cardId": "dama-capitals-ko-TZA",
+      "iso3": "TZA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "United Republic of Tanzania",
+      "baselineEnglishCapital": "Dodoma",
+      "selectedKoreanCapital": "도도마"
+    },
+    {
+      "cardId": "dama-capitals-ko-THA",
+      "iso3": "THA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Thailand",
+      "baselineEnglishCapital": "Bangkok",
+      "selectedKoreanCapital": "방콕"
+    },
+    {
+      "cardId": "dama-capitals-ko-TGO",
+      "iso3": "TGO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Togo",
+      "baselineEnglishCapital": "Lomé",
+      "selectedKoreanCapital": "로메"
+    },
+    {
+      "cardId": "dama-capitals-ko-TON",
+      "iso3": "TON",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Tonga",
+      "baselineEnglishCapital": "Nukuʻalofa",
+      "selectedKoreanCapital": "누쿠알로파"
+    },
+    {
+      "cardId": "dama-capitals-ko-TKM",
+      "iso3": "TKM",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Turkmenistan",
+      "baselineEnglishCapital": "Ashgabat",
+      "selectedKoreanCapital": "아시가바트"
+    },
+    {
+      "cardId": "dama-capitals-ko-TUV",
+      "iso3": "TUV",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Tuvalu",
+      "baselineEnglishCapital": "Funafuti",
+      "selectedKoreanCapital": "푸나푸티"
+    },
+    {
+      "cardId": "dama-capitals-ko-TUN",
+      "iso3": "TUN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Tunisia",
+      "baselineEnglishCapital": "Tunis",
+      "selectedKoreanCapital": "튀니스"
+    },
+    {
+      "cardId": "dama-capitals-ko-TUR",
+      "iso3": "TUR",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Türkiye",
+      "baselineEnglishCapital": "Ankara",
+      "selectedKoreanCapital": "앙카라"
+    },
+    {
+      "cardId": "dama-capitals-ko-TTO",
+      "iso3": "TTO",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Trinidad and Tobago",
+      "baselineEnglishCapital": "Port of Spain",
+      "selectedKoreanCapital": "포트오브스페인"
+    },
+    {
+      "cardId": "dama-capitals-ko-PAN",
+      "iso3": "PAN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Panama",
+      "baselineEnglishCapital": "Panama City",
+      "selectedKoreanCapital": "파나마시티"
+    },
+    {
+      "cardId": "dama-capitals-ko-PRY",
+      "iso3": "PRY",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Paraguay",
+      "baselineEnglishCapital": "Asunción",
+      "selectedKoreanCapital": "아순시온"
+    },
+    {
+      "cardId": "dama-capitals-ko-PAK",
+      "iso3": "PAK",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Pakistan",
+      "baselineEnglishCapital": "Islamabad",
+      "selectedKoreanCapital": "이슬라마바드"
+    },
+    {
+      "cardId": "dama-capitals-ko-PNG",
+      "iso3": "PNG",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Papua New Guinea",
+      "baselineEnglishCapital": "Port Moresby",
+      "selectedKoreanCapital": "포트모르즈비"
+    },
+    {
+      "cardId": "dama-capitals-ko-PLW",
+      "iso3": "PLW",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Palau",
+      "baselineEnglishCapital": "Ngerulmud",
+      "selectedKoreanCapital": "응게룰무드"
+    },
+    {
+      "cardId": "dama-capitals-ko-PSE",
+      "iso3": "PSE",
+      "sourceIds": [
+        "unesco",
+        "unesco_api",
+        "jerusalem",
+        "palestine_claim",
+        "un_observers"
+      ],
+      "baselineEnglishCountry": "State of Palestine",
+      "baselineEnglishCapital": "Ramallah",
+      "selectedKoreanCapital": "동예루살렘(주장 수도), 라말라(행정 중심지)"
+    },
+    {
+      "cardId": "dama-capitals-ko-PER",
+      "iso3": "PER",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Peru",
+      "baselineEnglishCapital": "Lima",
+      "selectedKoreanCapital": "리마"
+    },
+    {
+      "cardId": "dama-capitals-ko-PRT",
+      "iso3": "PRT",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Portugal",
+      "baselineEnglishCapital": "Lisbon",
+      "selectedKoreanCapital": "리스본"
+    },
+    {
+      "cardId": "dama-capitals-ko-POL",
+      "iso3": "POL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Poland",
+      "baselineEnglishCapital": "Warsaw",
+      "selectedKoreanCapital": "바르샤바"
+    },
+    {
+      "cardId": "dama-capitals-ko-FRA",
+      "iso3": "FRA",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "France",
+      "baselineEnglishCapital": "Paris",
+      "selectedKoreanCapital": "파리"
+    },
+    {
+      "cardId": "dama-capitals-ko-FJI",
+      "iso3": "FJI",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Fiji",
+      "baselineEnglishCapital": "Suva",
+      "selectedKoreanCapital": "수바"
+    },
+    {
+      "cardId": "dama-capitals-ko-FIN",
+      "iso3": "FIN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Finland",
+      "baselineEnglishCapital": "Helsinki",
+      "selectedKoreanCapital": "헬싱키"
+    },
+    {
+      "cardId": "dama-capitals-ko-PHL",
+      "iso3": "PHL",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Philippines",
+      "baselineEnglishCapital": "Manila",
+      "selectedKoreanCapital": "마닐라"
+    },
+    {
+      "cardId": "dama-capitals-ko-HUN",
+      "iso3": "HUN",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Hungary",
+      "baselineEnglishCapital": "Budapest",
+      "selectedKoreanCapital": "부다페스트"
+    },
+    {
+      "cardId": "dama-capitals-ko-AUS",
+      "iso3": "AUS",
+      "sourceIds": [
+        "unesco",
+        "unesco_api"
+      ],
+      "baselineEnglishCountry": "Australia",
+      "baselineEnglishCapital": "Canberra",
+      "selectedKoreanCapital": "캔버라"
+    }
+  ],
+  "validation": {
+    "cards": 195,
+    "uniqueIds": 195,
+    "uniqueCountries": 195,
+    "allCardValuesStrings": true,
+    "deckCount": 1,
+    "deck": "국가와 수도",
+    "language": "ko",
+    "targetLanguage": "ko",
+    "exceptionSourcesIncluded": [
+      "ATG",
+      "BDI",
+      "BEN",
+      "BOL",
+      "CHE",
+      "CIV",
+      "GNQ",
+      "IDN",
+      "ISR",
+      "LKA",
+      "MYS",
+      "NLD",
+      "NRU",
+      "PSE",
+      "SWZ",
+      "VAT",
+      "YEM",
+      "ZAF"
+    ],
+    "sha256": "21ed809dbfd0cffd07795a81cfab33bd5551d14c05fa88f3475d1cf3502068f8",
+    "allCardsMappedToBaseline": true
+  },
+  "reviewNotes": [
+    "전체 195개 국가·수도 및 지리 설명을 별도로 읽고 재검토함.",
+    "적도기니: 수도 지정과 기관 이전을 구분하도록 보완.",
+    "인도네시아: 2026년 7월 수도청 자료에서도 2028년 정치 수도 목표를 설명함."
+  ]
+}

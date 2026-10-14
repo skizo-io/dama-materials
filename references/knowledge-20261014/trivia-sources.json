@@ -1,0 +1,658 @@
+{
+  "verifiedOn": "2026-10-14",
+  "verification": "선별된 개념의 근거를 기관 원문 또는 기관 검색 결과에서 확인. 문항은 독자적으로 작성. 두 언어판은 동일 개념·순서.",
+  "concepts": [
+    {
+      "conceptId": "dama-trivia-001",
+      "cardIds": [
+        "dama-trivia-ko-001",
+        "dama-trivia-ja-001"
+      ],
+      "questionKo": "태양에 가장 가까운 행성은?",
+      "questionJa": "太陽に最も近い惑星は？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-002",
+      "cardIds": [
+        "dama-trivia-ko-002",
+        "dama-trivia-ja-002"
+      ],
+      "questionKo": "지구는 태양에서 몇 번째 행성일까?",
+      "questionJa": "地球は太陽から何番目の惑星？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-003",
+      "cardIds": [
+        "dama-trivia-ko-003",
+        "dama-trivia-ja-003"
+      ],
+      "questionKo": "태양에서 여덟 번째에 있는 행성은?",
+      "questionJa": "太陽から8番目にある惑星は？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-004",
+      "cardIds": [
+        "dama-trivia-ko-004",
+        "dama-trivia-ja-004"
+      ],
+      "questionKo": "수성·금성·지구·화성처럼 단단한 표면을 가진 행성을 무엇이라고 할까?",
+      "questionJa": "水星・金星・地球・火星のように固体の表面を持つ惑星を何という？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-005",
+      "cardIds": [
+        "dama-trivia-ko-005",
+        "dama-trivia-ja-005"
+      ],
+      "questionKo": "주 소행성대는 어느 두 행성의 궤도 사이에 있을까?",
+      "questionJa": "主な小惑星帯は、どの2つの惑星の軌道の間にある？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-006",
+      "cardIds": [
+        "dama-trivia-ko-006",
+        "dama-trivia-ja-006"
+      ],
+      "questionKo": "명왕성은 2006년에 어떤 종류의 천체로 재분류되었을까?",
+      "questionJa": "冥王星は2006年に、どの種類の天体に再分類された？",
+      "urls": [
+        "https://science.nasa.gov/solar-system/planets/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-007",
+      "cardIds": [
+        "dama-trivia-ko-007",
+        "dama-trivia-ja-007"
+      ],
+      "questionKo": "태양은 스스로 빛을 내는 어떤 종류의 천체일까?",
+      "questionJa": "太陽は自ら光を放つ、どの種類の天体？",
+      "urls": [
+        "https://science.nasa.gov/sun/facts/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-008",
+      "cardIds": [
+        "dama-trivia-ko-008",
+        "dama-trivia-ja-008"
+      ],
+      "questionKo": "태양 중심에서 수소가 헬륨으로 바뀌며 에너지를 내는 반응은?",
+      "questionJa": "太陽の中心で、水素がヘリウムに変わってエネルギーを生む反応は？",
+      "urls": [
+        "https://science.nasa.gov/sun/facts/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-009",
+      "cardIds": [
+        "dama-trivia-ko-009",
+        "dama-trivia-ja-009"
+      ],
+      "questionKo": "태양계가 속한 은하의 이름은?",
+      "questionJa": "太陽系が属する銀河の名前は？",
+      "urls": [
+        "https://science.nasa.gov/sun/facts/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-010",
+      "cardIds": [
+        "dama-trivia-ko-010",
+        "dama-trivia-ja-010"
+      ],
+      "questionKo": "광년은 시간과 거리 중 무엇의 단위일까?",
+      "questionJa": "光年は、時間と距離のどちらの単位？",
+      "urls": [
+        "https://science.nasa.gov/sun/facts/",
+        "https://science.nasa.gov/universe/glossary/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-011",
+      "cardIds": [
+        "dama-trivia-ko-011",
+        "dama-trivia-ja-011"
+      ],
+      "questionKo": "달이 지구를 향해 거의 같은 면을 보이는 이유는?",
+      "questionJa": "月が地球にほぼ同じ面を向けているのはなぜ？",
+      "urls": [
+        "https://science.nasa.gov/moon/facts/",
+        "https://science.nasa.gov/moon/moon-phases/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-012",
+      "cardIds": [
+        "dama-trivia-ko-012",
+        "dama-trivia-ja-012"
+      ],
+      "questionKo": "달 표면의 중력은 지구 표면 중력의 대략 얼마일까?",
+      "questionJa": "月の表面の重力は、地球の表面の重力のおよそ何分の1？",
+      "urls": [
+        "https://science.nasa.gov/moon/facts/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-013",
+      "cardIds": [
+        "dama-trivia-ko-013",
+        "dama-trivia-ja-013"
+      ],
+      "questionKo": "국제단위계에서 길이의 기본 단위는?",
+      "questionJa": "国際単位系で、長さの基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-014",
+      "cardIds": [
+        "dama-trivia-ko-014",
+        "dama-trivia-ja-014"
+      ],
+      "questionKo": "국제단위계에서 시간의 기본 단위는?",
+      "questionJa": "国際単位系で、時間の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-015",
+      "cardIds": [
+        "dama-trivia-ko-015",
+        "dama-trivia-ja-015"
+      ],
+      "questionKo": "국제단위계에서 질량의 기본 단위는?",
+      "questionJa": "国際単位系で、質量の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-016",
+      "cardIds": [
+        "dama-trivia-ko-016",
+        "dama-trivia-ja-016"
+      ],
+      "questionKo": "국제단위계에서 전류의 기본 단위는?",
+      "questionJa": "国際単位系で、電流の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-017",
+      "cardIds": [
+        "dama-trivia-ko-017",
+        "dama-trivia-ja-017"
+      ],
+      "questionKo": "국제단위계에서 열역학적 온도의 기본 단위는?",
+      "questionJa": "国際単位系で、熱力学温度の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-018",
+      "cardIds": [
+        "dama-trivia-ko-018",
+        "dama-trivia-ja-018"
+      ],
+      "questionKo": "국제단위계에서 물질량의 기본 단위는?",
+      "questionJa": "国際単位系で、物質量の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-019",
+      "cardIds": [
+        "dama-trivia-ko-019",
+        "dama-trivia-ja-019"
+      ],
+      "questionKo": "국제단위계에서 광도의 기본 단위는?",
+      "questionJa": "国際単位系で、光度の基本単位は？",
+      "urls": [
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-020",
+      "cardIds": [
+        "dama-trivia-ko-020",
+        "dama-trivia-ja-020"
+      ],
+      "questionKo": "위도 0도인 선의 이름은?",
+      "questionJa": "緯度0度の線の名前は？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/latitude.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-021",
+      "cardIds": [
+        "dama-trivia-ko-021",
+        "dama-trivia-ja-021"
+      ],
+      "questionKo": "북극점의 위도는?",
+      "questionJa": "北極点の緯度は？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/latitude.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-022",
+      "cardIds": [
+        "dama-trivia-ko-022",
+        "dama-trivia-ja-022"
+      ],
+      "questionKo": "적도에서 북쪽이나 남쪽으로 얼마나 떨어져 있는지를 각도로 나타내는 좌표는?",
+      "questionJa": "赤道から北または南にどれだけ離れているかを角度で表す座標は？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/latitude.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-023",
+      "cardIds": [
+        "dama-trivia-ko-023",
+        "dama-trivia-ja-023"
+      ],
+      "questionKo": "바다는 지구 표면의 대략 몇 퍼센트를 덮고 있을까?",
+      "questionJa": "海は地球の表面のおよそ何パーセントを覆っている？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/oceanwater.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-024",
+      "cardIds": [
+        "dama-trivia-ko-024",
+        "dama-trivia-ja-024"
+      ],
+      "questionKo": "바닷물에 녹아 있는 염류의 양은 질량 기준으로 평균 몇 퍼센트일까?",
+      "questionJa": "海水に含まれる塩類の質量割合は、平均でおよそ何パーセント？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/whysalty.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-025",
+      "cardIds": [
+        "dama-trivia-ko-025",
+        "dama-trivia-ja-025"
+      ],
+      "questionKo": "밀물과 썰물에 영향을 주는 대표적인 두 천체는?",
+      "questionJa": "潮の満ち引きに影響を与える主な2つの天体は？",
+      "urls": [
+        "https://oceanservice.noaa.gov/facts/tides.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-026",
+      "cardIds": [
+        "dama-trivia-ko-026",
+        "dama-trivia-ja-026"
+      ],
+      "questionKo": "액체인 물이 수면에서 수증기로 바뀌는 현상은?",
+      "questionJa": "液体の水が水面から水蒸気に変わる現象は？",
+      "urls": [
+        "https://www.usgs.gov/water-science-school/water-cycle"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-027",
+      "cardIds": [
+        "dama-trivia-ko-027",
+        "dama-trivia-ja-027"
+      ],
+      "questionKo": "수증기가 액체인 물방울로 바뀌는 현상은?",
+      "questionJa": "水蒸気が液体の水滴に変わる現象は？",
+      "urls": [
+        "https://www.usgs.gov/water-science-school/water-cycle",
+        "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-028",
+      "cardIds": [
+        "dama-trivia-ko-028",
+        "dama-trivia-ja-028"
+      ],
+      "questionKo": "지표의 물이 땅속으로 스며드는 과정은?",
+      "questionJa": "地表の水が地中にしみ込む過程は？",
+      "urls": [
+        "https://www.usgs.gov/water-science-school/water-cycle"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-029",
+      "cardIds": [
+        "dama-trivia-ko-029",
+        "dama-trivia-ja-029"
+      ],
+      "questionKo": "물이 육지의 높은 곳에서 낮은 곳으로 흐르게 하는 힘은?",
+      "questionJa": "陸上で水を高い所から低い所へ流れさせる力は？",
+      "urls": [
+        "https://www.usgs.gov/water-science-school/water-cycle"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-030",
+      "cardIds": [
+        "dama-trivia-ko-030",
+        "dama-trivia-ja-030"
+      ],
+      "questionKo": "곤충 성충의 기본적인 다리 수는?",
+      "questionJa": "成虫の昆虫の基本的な脚の数は？",
+      "urls": [
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-031",
+      "cardIds": [
+        "dama-trivia-ko-031",
+        "dama-trivia-ja-031"
+      ],
+      "questionKo": "거미의 기본적인 다리 수는?",
+      "questionJa": "クモの基本的な脚の数は？",
+      "urls": [
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-032",
+      "cardIds": [
+        "dama-trivia-ko-032",
+        "dama-trivia-ja-032"
+      ],
+      "questionKo": "곤충의 몸을 나누는 세 부분은?",
+      "questionJa": "昆虫の体を分ける3つの部分は？",
+      "urls": [
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-033",
+      "cardIds": [
+        "dama-trivia-ko-033",
+        "dama-trivia-ja-033"
+      ],
+      "questionKo": "곤충의 다리는 머리·가슴·배 중 어디에 붙어 있을까?",
+      "questionJa": "昆虫の脚は、頭部・胸部・腹部のどこについている？",
+      "urls": [
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-034",
+      "cardIds": [
+        "dama-trivia-ko-034",
+        "dama-trivia-ja-034"
+      ],
+      "questionKo": "곤충의 더듬이는 기본적으로 몇 쌍일까?",
+      "questionJa": "昆虫の触角は基本的に何対ある？",
+      "urls": [
+        "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-035",
+      "cardIds": [
+        "dama-trivia-ko-035",
+        "dama-trivia-ja-035"
+      ],
+      "questionKo": "식물이 빛 에너지를 이용해 당을 만드는 과정은?",
+      "questionJa": "植物が光のエネルギーを使って糖をつくる過程は？",
+      "urls": [
+        "https://www.kew.org/read-and-watch/kew-autumn-colour"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-036",
+      "cardIds": [
+        "dama-trivia-ko-036",
+        "dama-trivia-ja-036"
+      ],
+      "questionKo": "식물의 잎에서 빛을 흡수하는 대표적인 초록색 색소는?",
+      "questionJa": "植物の葉で光を吸収する、代表的な緑色の色素は？",
+      "urls": [
+        "https://www.kew.org/read-and-watch/kew-autumn-colour"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-037",
+      "cardIds": [
+        "dama-trivia-ko-037",
+        "dama-trivia-ja-037"
+      ],
+      "questionKo": "고래가 공기로 호흡할 때 사용하는 기관은?",
+      "questionJa": "クジラが空気を吸って呼吸するときに使う器官は？",
+      "urls": [
+        "https://uk.whales.org/whales-dolphins/how-do-whales-and-dolphins-breathe/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-038",
+      "cardIds": [
+        "dama-trivia-ko-038",
+        "dama-trivia-ja-038"
+      ],
+      "questionKo": "문어의 심장은 몇 개일까?",
+      "questionJa": "タコの心臓は何個ある？",
+      "urls": [
+        "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-039",
+      "cardIds": [
+        "dama-trivia-ko-039",
+        "dama-trivia-ja-039"
+      ],
+      "questionKo": "문어의 혈액이 산소와 결합했을 때 띠는 색은?",
+      "questionJa": "タコの血液は、酸素と結びつくと何色になる？",
+      "urls": [
+        "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-040",
+      "cardIds": [
+        "dama-trivia-ko-040",
+        "dama-trivia-ja-040"
+      ],
+      "questionKo": "박쥐는 조류와 포유류 중 어디에 속할까?",
+      "questionJa": "コウモリは鳥類と哺乳類のどちらに属する？",
+      "urls": [
+        "https://www.nhm.ac.uk/discover/how-to-see-uk-bats-and-give-them-a-helping-hand.html"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-041",
+      "cardIds": [
+        "dama-trivia-ko-041",
+        "dama-trivia-ja-041"
+      ],
+      "questionKo": "「모나리자」를 그린 화가는?",
+      "questionJa": "『モナ・リザ』を描いた画家は？",
+      "urls": [
+        "https://www.louvre.fr/decouvrir/les-parcours-de-visite/chefs-d-oeuvre-du-louvre/une-star-face-a-132-personnages"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-042",
+      "cardIds": [
+        "dama-trivia-ko-042",
+        "dama-trivia-ja-042"
+      ],
+      "questionKo": "「가나가와 해변의 높은 파도 아래」를 만든 일본의 화가는?",
+      "questionJa": "『神奈川沖浪裏』を制作した絵師は？",
+      "urls": [
+        "https://www.metmuseum.org/art/collection/search/56353"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-043",
+      "cardIds": [
+        "dama-trivia-ko-043",
+        "dama-trivia-ja-043"
+      ],
+      "questionKo": "「가나가와 해변의 높은 파도 아래」는 어떤 종류의 판화일까?",
+      "questionJa": "『神奈川沖浪裏』は、どの種類の版画？",
+      "urls": [
+        "https://www.metmuseum.org/art/collection/search/56353"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-044",
+      "cardIds": [
+        "dama-trivia-ko-044",
+        "dama-trivia-ja-044"
+      ],
+      "questionKo": "로제타석에는 몇 종류의 문자 체계로 글이 새겨져 있을까?",
+      "questionJa": "ロゼッタ・ストーンには、何種類の文字体系で文章が刻まれている？",
+      "urls": [
+        "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-045",
+      "cardIds": [
+        "dama-trivia-ko-045",
+        "dama-trivia-ja-045"
+      ],
+      "questionKo": "로제타석이 해독의 실마리를 제공한 고대 이집트 문자는?",
+      "questionJa": "ロゼッタ・ストーンが解読の手がかりとなった古代エジプトの文字は？",
+      "urls": [
+        "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-046",
+      "cardIds": [
+        "dama-trivia-ko-046",
+        "dama-trivia-ja-046"
+      ],
+      "questionKo": "타지마할이 있는 나라는?",
+      "questionJa": "タージ・マハルがある国は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/252/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-047",
+      "cardIds": [
+        "dama-trivia-ko-047",
+        "dama-trivia-ja-047"
+      ],
+      "questionKo": "타지마할이 있는 도시는?",
+      "questionJa": "タージ・マハルがある都市は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/252/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-048",
+      "cardIds": [
+        "dama-trivia-ko-048",
+        "dama-trivia-ja-048"
+      ],
+      "questionKo": "마추픽추가 있는 나라는?",
+      "questionJa": "マチュ・ピチュがある国は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/274"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-049",
+      "cardIds": [
+        "dama-trivia-ko-049",
+        "dama-trivia-ja-049"
+      ],
+      "questionKo": "마추픽추를 건설한 문명은?",
+      "questionJa": "マチュ・ピチュを築いた文明は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/274"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-050",
+      "cardIds": [
+        "dama-trivia-ko-050",
+        "dama-trivia-ja-050"
+      ],
+      "questionKo": "파르테논 신전이 있는 아크로폴리스는 어느 도시에 있을까?",
+      "questionJa": "パルテノン神殿があるアクロポリスは、どの都市にある？",
+      "urls": [
+        "https://whc.unesco.org/en/list/404"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-051",
+      "cardIds": [
+        "dama-trivia-ko-051",
+        "dama-trivia-ja-051"
+      ],
+      "questionKo": "앙코르 와트가 있는 나라는?",
+      "questionJa": "アンコール・ワットがある国は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/668/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-052",
+      "cardIds": [
+        "dama-trivia-ko-052",
+        "dama-trivia-ja-052"
+      ],
+      "questionKo": "암벽을 깎아 만든 건축물로 유명한 페트라 유적이 있는 나라는?",
+      "questionJa": "岩を削った建築で知られるペトラ遺跡がある国は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/326"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-053",
+      "cardIds": [
+        "dama-trivia-ko-053",
+        "dama-trivia-ja-053"
+      ],
+      "questionKo": "보로부두르 사원이 있는 인도네시아의 섬은?",
+      "questionJa": "ボロブドゥール寺院があるインドネシアの島は？",
+      "urls": [
+        "https://whc.unesco.org/en/list/592/"
+      ]
+    },
+    {
+      "conceptId": "dama-trivia-054",
+      "cardIds": [
+        "dama-trivia-ko-054",
+        "dama-trivia-ja-054"
+      ],
+      "questionKo": "1889년 작품 「별이 빛나는 밤」을 그린 화가는?",
+      "questionJa": "1889年の作品『星月夜』を描いた画家は？",
+      "urls": [
+        "https://www.moma.org/collection/works/79802?page=1"
+      ]
+    }
+  ],
+  "verificationLimits": "원문 또는 해당 기관 검색 결과의 관련 사실을 확인했다. 공인 번역·사람의 원어민 감수·앱 내 실제 가져오기는 수행하지 않았다."
+}

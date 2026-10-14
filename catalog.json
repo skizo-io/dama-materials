@@ -781,6 +781,81 @@
       "decks": {
         "EIKEN 1級 · 英語→日本語": 3517
       }
+    },
+    {
+      "id": "dama-trivia-ko",
+      "title": "일반상식 · 한국어",
+      "description": "우주·지구·생물·문화 일반상식 54장. 앞면에 분야를 표시한 단일 꾸러미입니다.",
+      "language": "한국어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-trivia-ko.json",
+      "sha256": "fdafc93946fb271ab2e4b57779aec992b64401fe94f4274cf6e246d653df7af1",
+      "bytes": 18050,
+      "cards": 54,
+      "decks": {
+        "일반상식": 54
+      }
+    },
+    {
+      "id": "dama-trivia-ja",
+      "title": "一般常識 · 日本語",
+      "description": "宇宙・地球・生物・文化の一般常識54枚。表面に分野を表示した1つのパックです。",
+      "language": "日本語",
+      "targetLanguage": "日本語",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-trivia-ja.json",
+      "sha256": "fc6bdc46275b4a088969542d1eeb6d83f1c9f1cf6354a704869928ea4dc50125",
+      "bytes": 18110,
+      "cards": 54,
+      "decks": {
+        "一般常識": 54
+      }
+    },
+    {
+      "id": "dama-idioms-ko",
+      "title": "사자성어 · 기본",
+      "description": "사자성어 102장. 한자와 한국어 뜻·학습 예문을 포함합니다.",
+      "language": "한국어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-idioms-ko.json",
+      "sha256": "cde12e6397ded62baf38e12f814d1c1653ef743d3ae1854244dbbba07e609e7a",
+      "bytes": 42270,
+      "cards": 102,
+      "decks": {
+        "사자성어 · 기본": 102
+      }
+    },
+    {
+      "id": "dama-capitals-ko",
+      "title": "국가와 수도",
+      "description": "UN 회원국 193개와 옵서버 2개에 대응하는 국가·수도 195장. 여러 수도와 정부 소재지 등은 추가 설명에서 구분합니다.",
+      "language": "한국어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-capitals-ko.json",
+      "sha256": "c0bdb349388195c36dae4a75f151a4866572954c1b45c4f1ebc612e109b10aca",
+      "bytes": 65235,
+      "cards": 195,
+      "decks": {
+        "국가와 수도": 195
+      }
+    },
+    {
+      "id": "dama-elements-ko",
+      "title": "화학 원소기호",
+      "description": "원소기호와 한국어 원소명 118장. 추가 설명에 원자번호·주기·족을 포함합니다.",
+      "language": "한국어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-elements-ko.json",
+      "sha256": "0aebdeab41868a3f953ee89bfffbac6f87e37962be0e8a1774d77df6732d0f6c",
+      "bytes": 38434,
+      "cards": 118,
+      "decks": {
+        "화학 원소기호": 118
+      }
     }
   ]
 }

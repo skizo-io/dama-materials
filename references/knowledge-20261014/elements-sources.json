@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-10-14",
+  "cardCount": 118,
+  "scope": "IUPAC 공인 원소 1–118. 대한화학회 2021-06-02 표준 주기율표의 한글 이름을 기본으로 하고 일부 종전 이름을 괄호로 병기. 보충 정보는 주기·족의 위치이며 물성 추정은 포함하지 않음.",
+  "sources": [
+    {
+      "title": "IUPAC Periodic Table of Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "use": "공식 원소 목록과 주기율표 배치, 란타넘족·악티늄족 범위"
+    },
+    {
+      "title": "IUPAC Periodic Table, 4 May 2022",
+      "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
+      "use": "원자번호·기호 검증"
+    },
+    {
+      "title": "대한화학회 표준 주기율표 국·영문 혼합, 2021-06-02",
+      "url": "https://d11dbvc62xodqh.cloudfront.net/kcs/homepage/periodic_table_of_the_elements_kor_eng_20210602.pdf",
+      "use": "118개 한국어 이름과 원자번호·기호·족 배치"
+    },
+    {
+      "title": "대한화학회 화합물 명명법",
+      "url": "https://kchem.org/iupacname",
+      "use": "한글 새이름과 옛이름의 대응. 이 자료 내 일부 오래된 표기가 달라 기본 이름은 표준 주기율표를 우선함."
+    }
+  ],
+  "validation": {
+    "uniqueIds": 118,
+    "uniqueSymbols": 118,
+    "atomicNumbers": "1–118, no gaps",
+    "allCardFieldsStrings": true,
+    "readingEmpty": true,
+    "koreanNamesVerifiedAgainstOfficialPdf": true,
+    "all118NumberSymbolNameTriplesMatchOfficialKcsPdf": true
+  }
+}
