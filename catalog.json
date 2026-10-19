@@ -1036,6 +1036,36 @@
       "decks": {
         "小学6年生 漢字の書き": 191
       }
+    },
+    {
+      "id": "es-ko-a1",
+      "title": "스페인어 A1 단어",
+      "description": "A1 기초 선정 단어 456개와 한국어 뜻·발음 안내입니다. 공식 DELE 전체 어휘 목록이 아닙니다.",
+      "language": "스페인어",
+      "targetLanguage": "한국어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-spanish-a1-ko.json",
+      "sha256": "119b98388837555087e35314be1cb08c3f02a84f7afe521e560d9890d6bc52db",
+      "bytes": 148687,
+      "cards": 456,
+      "decks": {
+        "스페인어 A1 단어": 456
+      }
+    },
+    {
+      "id": "es-ja-a1",
+      "title": "スペイン語 A1 単語",
+      "description": "A1基礎の選定語彙456語を、日本語の意味と発音表記で学びます。DELE公式の全語彙リストではありません。",
+      "language": "스페인어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/dama-spanish-a1-ja.json",
+      "sha256": "9d320e213e1168501e612fe7c8667ef197359228f0be95e3b1e2966d41550ab6",
+      "bytes": 150804,
+      "cards": 456,
+      "decks": {
+        "スペイン語 A1 単語": 456
+      }
     }
   ]
 }
