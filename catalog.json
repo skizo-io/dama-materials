@@ -856,6 +856,186 @@
       "decks": {
         "화학 원소기호": 118
       }
+    },
+    {
+      "id": "ja-ja-shogaku1-reading",
+      "title": "小学1年生 漢字の読み",
+      "description": "小学1年生の学習漢字80字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku1_reading.json",
+      "sha256": "3680a2816e4b2a5d26824420870feee02cab587378d1bcf902718c95571e4a7b",
+      "bytes": 33042,
+      "cards": 80,
+      "decks": {
+        "小学1年生 漢字の読み": 80
+      }
+    },
+    {
+      "id": "ja-ja-shogaku1-writing",
+      "title": "小学1年生 漢字の書き",
+      "description": "小学1年生の学習漢字80字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku1_writing.json",
+      "sha256": "bae8a52161ecbaf1e118414eba3100ef009bcc7fc3553ed6e86b54a81231404d",
+      "bytes": 38318,
+      "cards": 80,
+      "decks": {
+        "小学1年生 漢字の書き": 80
+      }
+    },
+    {
+      "id": "ja-ja-shogaku2-reading",
+      "title": "小学2年生 漢字の読み",
+      "description": "小学2年生の学習漢字160字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku2_reading.json",
+      "sha256": "265a452f6bc49809f4c323f227ee1cd3841b2daa02db6b2fc0138c3e0d4de2aa",
+      "bytes": 66420,
+      "cards": 160,
+      "decks": {
+        "小学2年生 漢字の読み": 160
+      }
+    },
+    {
+      "id": "ja-ja-shogaku2-writing",
+      "title": "小学2年生 漢字の書き",
+      "description": "小学2年生の学習漢字160字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku2_writing.json",
+      "sha256": "df87d9bd400b33cb3dd236d0c0caf3e137a5a4c6b03b14d1f37928694f3bdfff",
+      "bytes": 77216,
+      "cards": 160,
+      "decks": {
+        "小学2年生 漢字の書き": 160
+      }
+    },
+    {
+      "id": "ja-ja-shogaku3-reading",
+      "title": "小学3年生 漢字の読み",
+      "description": "小学3年生の学習漢字200字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku3_reading.json",
+      "sha256": "3e0bfc54c025050f625feaf9f7221cc0205ab52acb5018494911c738d04937ae",
+      "bytes": 84289,
+      "cards": 200,
+      "decks": {
+        "小学3年生 漢字の読み": 200
+      }
+    },
+    {
+      "id": "ja-ja-shogaku3-writing",
+      "title": "小学3年生 漢字の書き",
+      "description": "小学3年生の学習漢字200字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku3_writing.json",
+      "sha256": "ab5c2ccc132939fb825418365c34d125961c06dec340b0984716ed22c7226f8f",
+      "bytes": 97578,
+      "cards": 200,
+      "decks": {
+        "小学3年生 漢字の書き": 200
+      }
+    },
+    {
+      "id": "ja-ja-shogaku4-reading",
+      "title": "小学4年生 漢字の読み",
+      "description": "小学4年生の学習漢字202字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku4_reading.json",
+      "sha256": "d9e0fb146085937e2ffad1468729ea1199ee4c44fd526b2128a24da285ed4d22",
+      "bytes": 86064,
+      "cards": 202,
+      "decks": {
+        "小学4年生 漢字の読み": 202
+      }
+    },
+    {
+      "id": "ja-ja-shogaku4-writing",
+      "title": "小学4年生 漢字の書き",
+      "description": "小学4年生の学習漢字202字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku4_writing.json",
+      "sha256": "ace082ebc2c5f9d58268fcf7d25c67ee856f4fc6dec87557d43971e6593c0fcf",
+      "bytes": 98374,
+      "cards": 202,
+      "decks": {
+        "小学4年生 漢字の書き": 202
+      }
+    },
+    {
+      "id": "ja-ja-shogaku5-reading",
+      "title": "小学5年生 漢字の読み",
+      "description": "小学5年生の学習漢字193字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku5_reading.json",
+      "sha256": "c303ef895bf31b9c30a42d0f2c125ff8e3c3e5560fa73e14514dc82734fee2b9",
+      "bytes": 82920,
+      "cards": 193,
+      "decks": {
+        "小学5年生 漢字の読み": 193
+      }
+    },
+    {
+      "id": "ja-ja-shogaku5-writing",
+      "title": "小学5年生 漢字の書き",
+      "description": "小学5年生の学習漢字193字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku5_writing.json",
+      "sha256": "1ff449c20c9a710977136f2942d64cbd530e102e761195ba9e1e0b341672ed82",
+      "bytes": 95101,
+      "cards": 193,
+      "decks": {
+        "小学5年生 漢字の書き": 193
+      }
+    },
+    {
+      "id": "ja-ja-shogaku6-reading",
+      "title": "小学6年生 漢字の読み",
+      "description": "小学6年生の学習漢字191字。漢字の読みを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku6_reading.json",
+      "sha256": "fd769145728c1c01fdd90bccc55a8569d0e72dc13c54deda64d30b391749c952",
+      "bytes": 82744,
+      "cards": 191,
+      "decks": {
+        "小学6年生 漢字の読み": 191
+      }
+    },
+    {
+      "id": "ja-ja-shogaku6-writing",
+      "title": "小学6年生 漢字の書き",
+      "description": "小学6年生の学習漢字191字。漢字の書きを学ぶカードです。",
+      "language": "일본어",
+      "targetLanguage": "일본어",
+      "version": "1",
+      "url": "https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku6_writing.json",
+      "sha256": "605d1fcc24e6c4fe18cfb8d7caa0fdfe012952eeb2594e5ee2f31c44f8b00598",
+      "bytes": 95109,
+      "cards": 191,
+      "decks": {
+        "小学6年生 漢字の書き": 191
+      }
     }
   ]
 }

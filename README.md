@@ -40,6 +40,26 @@
 
 </details>
 
+<details>
+<summary>小学1〜6年生 漢字の読み・書き · 12種 / 12 materials</summary>
+
+| 資料 | カード | ダウンロード |
+| --- | ---: | --- |
+| 小学1年生 漢字の読み | 80 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku1_reading.json) |
+| 小学1年生 漢字の書き | 80 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku1_writing.json) |
+| 小学2年生 漢字の読み | 160 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku2_reading.json) |
+| 小学2年生 漢字の書き | 160 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku2_writing.json) |
+| 小学3年生 漢字の読み | 200 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku3_reading.json) |
+| 小学3年生 漢字の書き | 200 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku3_writing.json) |
+| 小学4年生 漢字の読み | 202 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku4_reading.json) |
+| 小学4年生 漢字の書き | 202 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku4_writing.json) |
+| 小学5年生 漢字の読み | 193 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku5_reading.json) |
+| 小学5年生 漢字の書き | 193 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku5_writing.json) |
+| 小学6年生 漢字の読み | 191 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku6_reading.json) |
+| 小学6年生 漢字の書き | 191 | [JSON](https://github.com/skizo-io/dama-materials/releases/download/materials-v1/shogaku6_writing.json) |
+
+</details>
+
 ## 영어 / English
 
 <details>
@@ -102,7 +122,7 @@
 
 ## 자료 안내
 
-- 현재 한국어 16종·일본어 13종·영어 28종(CEFR 12종 + EIKEN 16종), 총 57종을 제공합니다. 기존 CEFR·EIKEN·TOPIK 6종은 사용자 요청으로 제거했습니다.
+- 현재 한국어 16종·일본어 25종·영어 28종(CEFR 12종 + EIKEN 16종), 총 69종을 제공합니다. 기존 CEFR·EIKEN·TOPIK 6종은 사용자 요청으로 제거했습니다.
 - 한영 이름·안내는 영어, 한일은 일본어로 표시합니다. 시스템 언어와 무관하며 단어·뜻·발음·예문은 원본을 유지합니다.
 - 영어 CEFR A1~C2와 EIKEN 영한·영일은 꾸러미명과 안내를 답안 언어로 표시합니다. 일부 카드에 예문이 없으며 제공 JSON을 수정하지 않았습니다.
 - 한국어 자료의 로마자·가나 읽기는 발음의 근사 안내입니다. 공식 시험 등급이나 번역·용법 전수 검수를 보증하지 않습니다.
