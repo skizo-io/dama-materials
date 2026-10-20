@@ -1,133 +1,144 @@
-# 파일별 재배포 권한 확인 목록
+# AI 생성 자료의 생성 경위·이용 점검
 
-기준: 현재 `catalog.json`의 71종·93,189장. 확인 필요 표시는 권리 침해 판정이 아니며, 현재 다운로드를 임의 중단하거나 자료의 이용 허락을 새로 부여하지 않습니다. 파일의 단어·뜻·ID·예문은 이번 문서 작업에서 변경하지 않습니다.
+기준: 현재 `catalog.json`의 71종·93,189장. 이번 변경은 안내 문서만 대상으로 하며 단어·뜻·ID·예문과 다운로드 목록은 변경하지 않습니다.
 
-## 우선 확인: 66종
+## 생성 경위와 공통 점검 기준
 
-원저작자 또는 제공자가 직접 작성한 내용인지, 사용한 원자료의 정확한 URL/판본과 라이선스, 배포·변형·상업 이용 가능 여부, 표시해야 할 저작권·변경 고지를 파일별로 확보해야 합니다. 번역·발음·예문에 별도 출처가 있으면 각 구성요소도 확인합니다.
+2026-10-21 제공자 설명에 따르면 모든 자료는 AI로 생성했습니다. 특정 교재·사전·웹페이지 원문을 지정하거나 제공해 작성하도록 요청하지 않았습니다. AI가 실제로 참고한 자료는 확인되지 않았으며, 사용한 AI 서비스·모델·생성 로그와 당시 이용 조건은 제공되지 않았습니다. 아래 표시는 제공자 설명 기준이며 생성 로그를 독립 검증했다는 뜻은 아닙니다.
+
+기존 ‘66종 우선 재배포 권한 확인’ 분류를 위 생성 경위에 맞춰 대체합니다. 66종 전체가 외부 원문을 재배포하거나 일괄 허가를 받아야 하는 자료라는 근거는 확인되지 않았습니다. 외부 자료를 전혀 사용하지 않았다는 보증이나 모든 권리가 확인됐다는 선언도 아닙니다.
+
+- AI 서비스가 확인되면 생성 당시 결과물의 배포·상업 이용 조건을 점검합니다. 서비스나 출처를 추측해 기재하지 않습니다.
+- 특정 교재·사전 등의 표현을 실제로 가져온 사실이 확인되면 해당 파일·카드·구성요소에 한해 이용 조건과 필요한 허가·고지를 확인합니다. 긴 뜻풀이·설명·예문이 특정 원문을 실질적으로 재현하는지도 점검 대상입니다.
+- 번역·읽기·예문·난이도·사실의 정확성은 별도로 검토합니다. 시험명·급수는 학습 분류이며 공식 제공·승인을 뜻하지 않습니다.
+- 사실 대조용 참고자료는 생성 원문이나 재배포 허가 증거와 구분합니다. 이 목록은 새로운 라이선스나 재사용 허락을 부여하지 않습니다.
+
+## 현행 파일 목록
+
+현행 파일을 빠짐없이 표시하는 목록이며 파일마다 외부 허가가 필요하다는 표시가 아닙니다.
 
 ## JLPT·일본어 문법 12종
 
-원자료 작성자·생성 경위, 사전/교재 사용 여부, 뜻·번역·문법 설명·예문의 직접 작성 또는 재배포 허가를 확인합니다. JLPT 이름/수준 표기는 공식 제공 자료임을 의미하지 않습니다.
+AI 생성 자료입니다. JLPT 단계·문법 설명·번역·예문의 정확성은 별도 검토 대상입니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `dama-ja-ko-jlpt-n1.json` | JA→KO | 4,151 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-ko-jlpt-n2.json` | JA→KO | 2,361 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-ko-jlpt-n3.json` | JA→KO | 2,107 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-ko-jlpt-n4.json` | JA→KO | 666 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-ko-jlpt-n5.json` | JA→KO | 745 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-ko-grammar.json` | JA→KO | 740 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-jlpt-n1.json` | JA→EN | 4,151 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-jlpt-n2.json` | JA→EN | 2,361 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-jlpt-n3.json` | JA→EN | 2,107 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-jlpt-n4.json` | JA→EN | 666 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-jlpt-n5.json` | JA→EN | 745 | 파일별 재배포 근거 확인 필요 |
-| `dama-ja-en-grammar-v2.json` | JA→EN | 740 | 파일별 재배포 근거 확인 필요 |
+| `dama-ja-ko-jlpt-n1.json` | JA→KO | 4,151 | AI 생성(제공자 설명 기준) |
+| `dama-ja-ko-jlpt-n2.json` | JA→KO | 2,361 | AI 생성(제공자 설명 기준) |
+| `dama-ja-ko-jlpt-n3.json` | JA→KO | 2,107 | AI 생성(제공자 설명 기준) |
+| `dama-ja-ko-jlpt-n4.json` | JA→KO | 666 | AI 생성(제공자 설명 기준) |
+| `dama-ja-ko-jlpt-n5.json` | JA→KO | 745 | AI 생성(제공자 설명 기준) |
+| `dama-ja-ko-grammar.json` | JA→KO | 740 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-jlpt-n1.json` | JA→EN | 4,151 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-jlpt-n2.json` | JA→EN | 2,361 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-jlpt-n3.json` | JA→EN | 2,107 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-jlpt-n4.json` | JA→EN | 666 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-jlpt-n5.json` | JA→EN | 745 | AI 생성(제공자 설명 기준) |
+| `dama-ja-en-grammar-v2.json` | JA→EN | 740 | AI 생성(제공자 설명 기준) |
 
 ## NIKL 한국어 12종
 
-교육과정 어휘 목록의 정확한 판본·이용 조건과 영어/일본어 뜻풀이·발음·예문의 별도 작성/허가 근거를 확인합니다. 과거 TOPIK 파일의 CC BY-SA 조건을 자동 적용하지 않습니다.
+AI 생성 자료입니다. 파일명·내부 ID의 NIKL 표기는 보존하지만 그 표기만으로 국립국어원 원자료를 직접 이용했거나 공식 제공 자료라고 판단하지 않습니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `ko-en-nikl-grade1.json` | KO→EN | 735 | 파일별 재배포 근거 확인 필요 |
-| `ko-en-nikl-grade2.json` | KO→EN | 1,100 | 파일별 재배포 근거 확인 필요 |
-| `ko-en-nikl-grade3.json` | KO→EN | 1,655 | 파일별 재배포 근거 확인 필요 |
-| `ko-en-nikl-grade4.json` | KO→EN | 2,200 | 파일별 재배포 근거 확인 필요 |
-| `ko-en-nikl-grade5.json` | KO→EN | 2,365 | 파일별 재배포 근거 확인 필요 |
-| `ko-en-nikl-grade6.json` | KO→EN | 2,580 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade1.json` | KO→JA | 735 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade2.json` | KO→JA | 1,100 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade3.json` | KO→JA | 1,655 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade4.json` | KO→JA | 2,200 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade5.json` | KO→JA | 2,365 | 파일별 재배포 근거 확인 필요 |
-| `ko-ja-nikl-grade6.json` | KO→JA | 2,580 | 파일별 재배포 근거 확인 필요 |
+| `ko-en-nikl-grade1.json` | KO→EN | 735 | AI 생성(제공자 설명 기준) |
+| `ko-en-nikl-grade2.json` | KO→EN | 1,100 | AI 생성(제공자 설명 기준) |
+| `ko-en-nikl-grade3.json` | KO→EN | 1,655 | AI 생성(제공자 설명 기준) |
+| `ko-en-nikl-grade4.json` | KO→EN | 2,200 | AI 생성(제공자 설명 기준) |
+| `ko-en-nikl-grade5.json` | KO→EN | 2,365 | AI 생성(제공자 설명 기준) |
+| `ko-en-nikl-grade6.json` | KO→EN | 2,580 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade1.json` | KO→JA | 735 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade2.json` | KO→JA | 1,100 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade3.json` | KO→JA | 1,655 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade4.json` | KO→JA | 2,200 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade5.json` | KO→JA | 2,365 | AI 생성(제공자 설명 기준) |
+| `ko-ja-nikl-grade6.json` | KO→JA | 2,580 | AI 생성(제공자 설명 기준) |
 
 ## CEFR 영어 12종
 
-단계 분류 데이터의 정확한 출처·이용 조건과 뜻·번역·발음·예문의 별도 작성/허가 근거를 확인합니다. 과거 통합 CEFR의 출처 기록만으로 새 파일의 허가를 대체하지 않습니다.
+AI 생성 자료입니다. CEFR 수준 표기는 특정 외부 어휘 목록의 직접 사용이나 공식 승인을 입증하지 않습니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `cefr-A1_en-ko.json` | EN→KO | 820 | 파일별 재배포 근거 확인 필요 |
-| `cefr-A2_en-ko.json` | EN→KO | 1,135 | 파일별 재배포 근거 확인 필요 |
-| `cefr-B1_en-ko.json` | EN→KO | 1,889 | 파일별 재배포 근거 확인 필요 |
-| `cefr-B2_en-ko.json` | EN→KO | 2,539 | 파일별 재배포 근거 확인 필요 |
-| `cefr-C1_en-ko.json` | EN→KO | 4,071 | 파일별 재배포 근거 확인 필요 |
-| `cefr-C2_en-ko.json` | EN→KO | 1,269 | 파일별 재배포 근거 확인 필요 |
-| `cefr-A1_en-ja.json` | EN→JA | 820 | 파일별 재배포 근거 확인 필요 |
-| `cefr-A2_en-ja.json` | EN→JA | 1,135 | 파일별 재배포 근거 확인 필요 |
-| `cefr-B1_en-ja.json` | EN→JA | 1,889 | 파일별 재배포 근거 확인 필요 |
-| `cefr-B2_en-ja.json` | EN→JA | 2,539 | 파일별 재배포 근거 확인 필요 |
-| `cefr-C1_en-ja.json` | EN→JA | 4,071 | 파일별 재배포 근거 확인 필요 |
-| `cefr-C2_en-ja.json` | EN→JA | 1,269 | 파일별 재배포 근거 확인 필요 |
+| `cefr-A1_en-ko.json` | EN→KO | 820 | AI 생성(제공자 설명 기준) |
+| `cefr-A2_en-ko.json` | EN→KO | 1,135 | AI 생성(제공자 설명 기준) |
+| `cefr-B1_en-ko.json` | EN→KO | 1,889 | AI 생성(제공자 설명 기준) |
+| `cefr-B2_en-ko.json` | EN→KO | 2,539 | AI 생성(제공자 설명 기준) |
+| `cefr-C1_en-ko.json` | EN→KO | 4,071 | AI 생성(제공자 설명 기준) |
+| `cefr-C2_en-ko.json` | EN→KO | 1,269 | AI 생성(제공자 설명 기준) |
+| `cefr-A1_en-ja.json` | EN→JA | 820 | AI 생성(제공자 설명 기준) |
+| `cefr-A2_en-ja.json` | EN→JA | 1,135 | AI 생성(제공자 설명 기준) |
+| `cefr-B1_en-ja.json` | EN→JA | 1,889 | AI 생성(제공자 설명 기준) |
+| `cefr-B2_en-ja.json` | EN→JA | 2,539 | AI 생성(제공자 설명 기준) |
+| `cefr-C1_en-ja.json` | EN→JA | 4,071 | AI 생성(제공자 설명 기준) |
+| `cefr-C2_en-ja.json` | EN→JA | 1,269 | AI 생성(제공자 설명 기준) |
 
 ## EIKEN 영어 16종
 
-어휘 선정 목록의 정확한 출처, 교재/사전/기출문장 사용 여부, 뜻·번역·발음·예문의 작성 또는 허가 근거를 확인합니다. 시험명·급수만으로 공식 목록 또는 허가 자료가 되지 않습니다.
+AI 생성 자료입니다. EIKEN 시험명·급수는 학습 안내이며 공식 어휘 목록·기출문장 제공을 뜻하지 않습니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `eiken-5kyu_en-ko.json` | EN→KO | 611 | 파일별 재배포 근거 확인 필요 |
-| `eiken-4kyu_en-ko.json` | EN→KO | 544 | 파일별 재배포 근거 확인 필요 |
-| `eiken-3kyu_en-ko.json` | EN→KO | 646 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre2kyu_en-ko.json` | EN→KO | 1,659 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre2pluskyu_en-ko.json` | EN→KO | 951 | 파일별 재배포 근거 확인 필요 |
-| `eiken-2kyu_en-ko.json` | EN→KO | 1,099 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre1kyu_en-ko.json` | EN→KO | 2,696 | 파일별 재배포 근거 확인 필요 |
-| `eiken-1kyu_en-ko.json` | EN→KO | 3,517 | 파일별 재배포 근거 확인 필요 |
-| `eiken-5kyu_en-ja.json` | EN→JA | 611 | 파일별 재배포 근거 확인 필요 |
-| `eiken-4kyu_en-ja.json` | EN→JA | 544 | 파일별 재배포 근거 확인 필요 |
-| `eiken-3kyu_en-ja.json` | EN→JA | 646 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre2kyu_en-ja.json` | EN→JA | 1,659 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre2pluskyu_en-ja.json` | EN→JA | 951 | 파일별 재배포 근거 확인 필요 |
-| `eiken-2kyu_en-ja.json` | EN→JA | 1,099 | 파일별 재배포 근거 확인 필요 |
-| `eiken-pre1kyu_en-ja.json` | EN→JA | 2,696 | 파일별 재배포 근거 확인 필요 |
-| `eiken-1kyu_en-ja.json` | EN→JA | 3,517 | 파일별 재배포 근거 확인 필요 |
+| `eiken-5kyu_en-ko.json` | EN→KO | 611 | AI 생성(제공자 설명 기준) |
+| `eiken-4kyu_en-ko.json` | EN→KO | 544 | AI 생성(제공자 설명 기준) |
+| `eiken-3kyu_en-ko.json` | EN→KO | 646 | AI 생성(제공자 설명 기준) |
+| `eiken-pre2kyu_en-ko.json` | EN→KO | 1,659 | AI 생성(제공자 설명 기준) |
+| `eiken-pre2pluskyu_en-ko.json` | EN→KO | 951 | AI 생성(제공자 설명 기준) |
+| `eiken-2kyu_en-ko.json` | EN→KO | 1,099 | AI 생성(제공자 설명 기준) |
+| `eiken-pre1kyu_en-ko.json` | EN→KO | 2,696 | AI 생성(제공자 설명 기준) |
+| `eiken-1kyu_en-ko.json` | EN→KO | 3,517 | AI 생성(제공자 설명 기준) |
+| `eiken-5kyu_en-ja.json` | EN→JA | 611 | AI 생성(제공자 설명 기준) |
+| `eiken-4kyu_en-ja.json` | EN→JA | 544 | AI 생성(제공자 설명 기준) |
+| `eiken-3kyu_en-ja.json` | EN→JA | 646 | AI 생성(제공자 설명 기준) |
+| `eiken-pre2kyu_en-ja.json` | EN→JA | 1,659 | AI 생성(제공자 설명 기준) |
+| `eiken-pre2pluskyu_en-ja.json` | EN→JA | 951 | AI 생성(제공자 설명 기준) |
+| `eiken-2kyu_en-ja.json` | EN→JA | 1,099 | AI 생성(제공자 설명 기준) |
+| `eiken-pre1kyu_en-ja.json` | EN→JA | 2,696 | AI 생성(제공자 설명 기준) |
+| `eiken-1kyu_en-ja.json` | EN→JA | 3,517 | AI 생성(제공자 설명 기준) |
 
 ## 초등 한자 읽기·쓰기 12종
 
-참고한 한자 배당표·읽기 자료의 정확한 출처와 카드의 읽기·뜻·어휘·예문 작성 또는 허가 근거를 확인합니다.
+AI 생성 자료입니다. 학년별 분류만으로 외부 설명·예문을 직접 가져왔다고 판단하지 않습니다. 한자 배당·읽기·뜻의 정확성은 별도 검토 대상입니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `shogaku1_reading.json` | JA→JA | 80 | 파일별 재배포 근거 확인 필요 |
-| `shogaku1_writing.json` | JA→JA | 80 | 파일별 재배포 근거 확인 필요 |
-| `shogaku2_reading.json` | JA→JA | 160 | 파일별 재배포 근거 확인 필요 |
-| `shogaku2_writing.json` | JA→JA | 160 | 파일별 재배포 근거 확인 필요 |
-| `shogaku3_reading.json` | JA→JA | 200 | 파일별 재배포 근거 확인 필요 |
-| `shogaku3_writing.json` | JA→JA | 200 | 파일별 재배포 근거 확인 필요 |
-| `shogaku4_reading.json` | JA→JA | 202 | 파일별 재배포 근거 확인 필요 |
-| `shogaku4_writing.json` | JA→JA | 202 | 파일별 재배포 근거 확인 필요 |
-| `shogaku5_reading.json` | JA→JA | 193 | 파일별 재배포 근거 확인 필요 |
-| `shogaku5_writing.json` | JA→JA | 193 | 파일별 재배포 근거 확인 필요 |
-| `shogaku6_reading.json` | JA→JA | 191 | 파일별 재배포 근거 확인 필요 |
-| `shogaku6_writing.json` | JA→JA | 191 | 파일별 재배포 근거 확인 필요 |
+| `shogaku1_reading.json` | JA→JA | 80 | AI 생성(제공자 설명 기준) |
+| `shogaku1_writing.json` | JA→JA | 80 | AI 생성(제공자 설명 기준) |
+| `shogaku2_reading.json` | JA→JA | 160 | AI 생성(제공자 설명 기준) |
+| `shogaku2_writing.json` | JA→JA | 160 | AI 생성(제공자 설명 기준) |
+| `shogaku3_reading.json` | JA→JA | 200 | AI 생성(제공자 설명 기준) |
+| `shogaku3_writing.json` | JA→JA | 200 | AI 생성(제공자 설명 기준) |
+| `shogaku4_reading.json` | JA→JA | 202 | AI 생성(제공자 설명 기준) |
+| `shogaku4_writing.json` | JA→JA | 202 | AI 생성(제공자 설명 기준) |
+| `shogaku5_reading.json` | JA→JA | 193 | AI 생성(제공자 설명 기준) |
+| `shogaku5_writing.json` | JA→JA | 193 | AI 생성(제공자 설명 기준) |
+| `shogaku6_reading.json` | JA→JA | 191 | AI 생성(제공자 설명 기준) |
+| `shogaku6_writing.json` | JA→JA | 191 | AI 생성(제공자 설명 기준) |
 
 ## 스페인어 A1 2종
 
-어휘 선정·뜻·발음·번역·예문의 원자료/작성자와 이용 조건을 확인합니다. A1이라는 수준 표기만으로 배포 허가가 입증되지 않습니다.
+AI 생성 자료입니다. A1은 학습 수준 안내이며 공식 제공 자료를 뜻하지 않습니다. 어휘·번역·발음·예문의 정확성은 별도 검토 대상입니다.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `dama-spanish-a1-ko.json` | ES→KO | 456 | 파일별 재배포 근거 확인 필요 |
-| `dama-spanish-a1-ja.json` | ES→JA | 456 | 파일별 재배포 근거 확인 필요 |
+| `dama-spanish-a1-ko.json` | ES→KO | 456 | AI 생성(제공자 설명 기준) |
+| `dama-spanish-a1-ja.json` | ES→JA | 456 | AI 생성(제공자 설명 기준) |
 
 ## 일반 지식 5종
 
-기관·사전 대조 근거는 있습니다. 사실 자체와 별도로 카드에 수록한 뜻풀이·설명·번역·예문의 직접 작성 여부 또는 인용/재배포 조건을 확인합니다. 사실이 맞는다는 확인을 저작권 허가로 바꾸지 않습니다.
+AI 생성 자료이며 별도의 사실 대조 기록이 있습니다. 대조 기록은 생성 원문이나 이용 허가 증거가 아닙니다. 참고자료는 [SOURCES.md](SOURCES.md)를 확인하세요.
 
 | 공개 파일 | 방향 | 카드 | 현재 상태 |
 | --- | --- | ---: | --- |
-| `dama-trivia-ko.json` | KO→KO | 54 | 출처 대조 기록 있음 / 설명·번역·예문 권리 추가 확인 |
-| `dama-trivia-ja.json` | JA→JA | 54 | 출처 대조 기록 있음 / 설명·번역·예문 권리 추가 확인 |
-| `dama-idioms-ko.json` | KO→KO | 102 | 출처 대조 기록 있음 / 설명·번역·예문 권리 추가 확인 |
-| `dama-capitals-ko.json` | KO→KO | 195 | 출처 대조 기록 있음 / 설명·번역·예문 권리 추가 확인 |
-| `dama-elements-ko.json` | KO→KO | 118 | 출처 대조 기록 있음 / 설명·번역·예문 권리 추가 확인 |
+| `dama-trivia-ko.json` | KO→KO | 54 | AI 생성 / 별도 사실 대조 기록 있음 |
+| `dama-trivia-ja.json` | JA→JA | 54 | AI 생성 / 별도 사실 대조 기록 있음 |
+| `dama-idioms-ko.json` | KO→KO | 102 | AI 생성 / 별도 사실 대조 기록 있음 |
+| `dama-capitals-ko.json` | KO→KO | 195 | AI 생성 / 별도 사실 대조 기록 있음 |
+| `dama-elements-ko.json` | KO→KO | 118 | AI 생성 / 별도 사실 대조 기록 있음 |
 
-## 확인을 마칠 때 남길 항목
+## 추가 사실이 확인되면 남길 기록
 
-각 파일에 대해 원저작자/권리자, 정확한 원자료와 판본, 허가 또는 라이선스 근거, 직접 작성한 부분, 수정 내역, 필수 출처 고지와 확인일을 기록합니다. 확인된 조건은 해당 자료에만 적용하며 파일명이 비슷한 과거 자료의 조건을 가져와 대신하지 않습니다.
+사용한 AI 서비스·모델·생성일·당시 이용 조건·생성 로그가 확보되면 확인된 범위만 기록합니다. 실제 외부 원문 이용이 확인되면 해당 부분과 정확한 출처·이용 조건·필수 고지를 연결합니다. 모르는 출처나 라이선스를 AI 추정으로 채우지 않습니다.
 
-구 TOPIK·CEFR·EIKEN 6개 통합본은 2026-10-12에 이미 제공을 중단한 자료이며 위 71개에 포함하지 않습니다. 이번 정리 대상인 과거 통합 JLPT 4파일·구 일영 문법 1파일도 위 현행 목록과 구분합니다. 과거 자료를 복구해 재공개하려면 해당 파일의 권한을 별도로 다시 확인해야 합니다.
+구 TOPIK·CEFR·EIKEN 6개 통합본과 과거 통합 JLPT 4파일·구 일영 문법 1파일은 위 현행 목록과 구분합니다. 이번 정리는 제공 중단 파일을 복구하거나 재공개하지 않습니다. 과거 안내의 출처·라이선스 주장을 현행 자료에 자동 적용하지 않습니다.
